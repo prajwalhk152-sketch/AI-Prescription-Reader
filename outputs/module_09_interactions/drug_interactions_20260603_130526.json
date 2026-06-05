@@ -1,0 +1,124 @@
+{
+    "input_file": "detected_medicines_20260603_130406.csv",
+    "input_path": "outputs/module_06_medicines\\detected_medicines_20260603_130406.csv",
+    "medicines_checked": [
+        "Amlodipine 5 Mg",
+        "Atorvastatin 10 Mg",
+        "Metformin",
+        "Medicone",
+        "Aspirin",
+        "Dilt"
+    ],
+    "total_pairs_checked": 15,
+    "high_risk_count": 0,
+    "moderate_risk_count": 0,
+    "low_risk_count": 0,
+    "interaction_results": [
+        {
+            "medicine_1": "Amlodipine 5 Mg",
+            "medicine_2": "Atorvastatin 10 Mg",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Amlodipine 5 Mg",
+            "medicine_2": "Metformin",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Amlodipine 5 Mg",
+            "medicine_2": "Medicone",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Amlodipine 5 Mg",
+            "medicine_2": "Aspirin",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Amlodipine 5 Mg",
+            "medicine_2": "Dilt",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Atorvastatin 10 Mg",
+            "medicine_2": "Metformin",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Atorvastatin 10 Mg",
+            "medicine_2": "Medicone",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Atorvastatin 10 Mg",
+            "medicine_2": "Aspirin",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Atorvastatin 10 Mg",
+            "medicine_2": "Dilt",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Metformin",
+            "medicine_2": "Medicone",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Metformin",
+            "medicine_2": "Aspirin",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Metformin",
+            "medicine_2": "Dilt",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Medicone",
+            "medicine_2": "Aspirin",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Medicone",
+            "medicine_2": "Dilt",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Aspirin",
+            "medicine_2": "Dilt",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        }
+    ],
+    "created_at": "2026-06-03 13:05:26.799939"
+}

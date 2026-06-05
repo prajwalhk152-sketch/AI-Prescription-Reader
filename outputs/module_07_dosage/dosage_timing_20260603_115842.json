@@ -1,0 +1,48 @@
+{
+    "input_file": "ocr_text_20260603_115709.txt",
+    "input_path": "outputs/module_05_ocr\\ocr_text_20260603_115709.txt",
+    "medicines": [],
+    "dosages": [
+        "1TAB",
+        "40MG"
+    ],
+    "timings": [
+        "Before Food",
+        "After Food"
+    ],
+    "frequencies": [
+        "1-0-0",
+        "HS",
+        "1-0-1"
+    ],
+    "table": [
+        {
+            "medicine_name": "Not detected",
+            "category": "Unknown",
+            "dosage": "1TAB",
+            "timing": "Before Food",
+            "frequency": "1-0-0",
+            "source_text": "No medicine entity detected",
+            "extraction_method": "Dosage pattern fallback"
+        },
+        {
+            "medicine_name": "Not detected",
+            "category": "Unknown",
+            "dosage": "40MG",
+            "timing": "After Food",
+            "frequency": "HS",
+            "source_text": "No medicine entity detected",
+            "extraction_method": "Dosage pattern fallback"
+        },
+        {
+            "medicine_name": "Not detected",
+            "category": "Unknown",
+            "dosage": "Not detected",
+            "timing": "Not detected",
+            "frequency": "1-0-1",
+            "source_text": "No medicine entity detected",
+            "extraction_method": "Dosage pattern fallback"
+        }
+    ],
+    "created_at": "2026-06-03 11:58:42.394589"
+}

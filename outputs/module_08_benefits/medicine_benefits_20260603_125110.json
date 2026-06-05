@@ -1,0 +1,50 @@
+{
+    "input_file": "detected_medicines_20260603_124905.csv",
+    "input_path": "outputs/module_06_medicines\\detected_medicines_20260603_124905.csv",
+    "benefits": [
+        {
+            "medicine_name": "Paracetamol",
+            "category": "Fever / Pain Relief",
+            "benefit_explanation": "Paracetamol belongs to the Fever / Pain Relief group. Used to reduce fever and relieve mild to moderate pain such as headache and body pain. In simple terms, it may help manage the condition written in the prescription, but the exact reason, dose, and duration should always be confirmed with the doctor. Avoid changing the dose or replacing it with another medicine without medical advice.",
+            "generation_method": "OPENAI_API_KEY is not configured. Used local GenAI-style explanation.",
+            "patient_note": "Take this medicine only as prescribed by your doctor."
+        },
+        {
+            "medicine_name": "Azithromycin",
+            "category": "Antibiotic",
+            "benefit_explanation": "Azithromycin belongs to the Antibiotic group. An antibiotic used to treat bacterial infections such as throat, chest, and skin infections. In simple terms, it may help manage the condition written in the prescription, but the exact reason, dose, and duration should always be confirmed with the doctor. Avoid changing the dose or replacing it with another medicine without medical advice.",
+            "generation_method": "OPENAI_API_KEY is not configured. Used local GenAI-style explanation.",
+            "patient_note": "Take this medicine only as prescribed by your doctor."
+        },
+        {
+            "medicine_name": "Water",
+            "category": "RxNav Ingredient",
+            "benefit_explanation": "Water belongs to the RxNav Ingredient group. Water is generally used for rxnav ingredient. Please follow the doctor's prescription and do not self-medicate. In simple terms, it may help manage the condition written in the prescription, but the exact reason, dose, and duration should always be confirmed with the doctor. Avoid changing the dose or replacing it with another medicine without medical advice.",
+            "generation_method": "OPENAI_API_KEY is not configured. Used local GenAI-style explanation.",
+            "patient_note": "Take this medicine only as prescribed by your doctor."
+        },
+        {
+            "medicine_name": "Genteal",
+            "category": "RxNav Brand Name",
+            "benefit_explanation": "Genteal belongs to the RxNav Brand Name group. Genteal is generally used for rxnav brand name. Please follow the doctor's prescription and do not self-medicate. In simple terms, it may help manage the condition written in the prescription, but the exact reason, dose, and duration should always be confirmed with the doctor. Avoid changing the dose or replacing it with another medicine without medical advice.",
+            "generation_method": "OPENAI_API_KEY is not configured. Used local GenAI-style explanation.",
+            "patient_note": "Take this medicine only as prescribed by your doctor."
+        },
+        {
+            "medicine_name": "Medicone",
+            "category": "RxNav Brand Name",
+            "benefit_explanation": "Medicone belongs to the RxNav Brand Name group. Medicone is generally used for rxnav brand name. Please follow the doctor's prescription and do not self-medicate. In simple terms, it may help manage the condition written in the prescription, but the exact reason, dose, and duration should always be confirmed with the doctor. Avoid changing the dose or replacing it with another medicine without medical advice.",
+            "generation_method": "OPENAI_API_KEY is not configured. Used local GenAI-style explanation.",
+            "patient_note": "Take this medicine only as prescribed by your doctor."
+        },
+        {
+            "medicine_name": "Cetirizine",
+            "category": "Allergy Relief",
+            "benefit_explanation": "Cetirizine belongs to the Allergy Relief group. Used to reduce allergy symptoms such as sneezing, runny nose, and itching. In simple terms, it may help manage the condition written in the prescription, but the exact reason, dose, and duration should always be confirmed with the doctor. Avoid changing the dose or replacing it with another medicine without medical advice.",
+            "generation_method": "OPENAI_API_KEY is not configured. Used local GenAI-style explanation.",
+            "patient_note": "Take this medicine only as prescribed by your doctor."
+        }
+    ],
+    "total_medicines": 6,
+    "created_at": "2026-06-03 12:51:10.100920"
+}

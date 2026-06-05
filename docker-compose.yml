@@ -1,0 +1,10 @@
+services:
+  ai-prescription-reader:
+    build:
+      context: .
+    image: prajwalhk152/ai-prescription-reader:latest
+    env_file:
+      - .env
+    ports:
+      - "8501:8501"
+    restart: unless-stopped

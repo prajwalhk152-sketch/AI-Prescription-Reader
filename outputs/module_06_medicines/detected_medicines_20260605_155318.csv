@@ -1,0 +1,7 @@
+medicine_name,category,confidence,detection_method,score
+Amlodipine 5 Mg,RxNav Clinical Drug Component,High,Exact Phrase Match,1.0
+Atorvastatin 10 Mg,RxNav Clinical Drug Component,High,Exact Phrase Match,1.0
+Metformin,Diabetes Control,High,Exact Phrase Match,1.0
+Medicone,RxNav Brand Name,High,Fuzzy Match (Typo Detection),0.88
+Aspirin,Blood Thinner,High,Fuzzy Match (Typo Detection),0.86
+Dilt,RxNav Brand Name,High,Fuzzy Match (Typo Detection),0.89

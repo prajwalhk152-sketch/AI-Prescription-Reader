@@ -1,0 +1,116 @@
+{
+    "input_file": "ocr_text_20260603_130352.txt",
+    "input_path": "outputs/module_05_ocr\\ocr_text_20260603_130352.txt",
+    "medicines": [
+        {
+            "medicine_name": "Metformin",
+            "category": "Diabetes Control",
+            "start_char": 323,
+            "end_char": 332,
+            "source_text": "Metformin 500 ma\n1 Month\n2.",
+            "extraction_method": "spaCy EntityRuler"
+        },
+        {
+            "medicine_name": "Amlodipine",
+            "category": "Blood Pressure Control",
+            "start_char": 138,
+            "end_char": 148,
+            "source_text": "Metformin\n500 mg\nAfter Food\nMonth\nAmlodipine\n5 mg\nI -0 -/\nAfter\nFood\nAtorvastatin\nIo\nma\n0 -0 -/\nNight\nAspinin\n15 ma\nWalk\ndailt\nLow\nSalt\ndiet\nNo:: 54321\nAt_\nReg:\nDate ; 28/05/2024\nR Name : Mohan Singh\nAge: 45 /M\n1.",
+            "extraction_method": "spaCy EntityRuler"
+        },
+        {
+            "medicine_name": "Atorvastatin",
+            "category": "Cholesterol Control",
+            "start_char": 173,
+            "end_char": 185,
+            "source_text": "Metformin\n500 mg\nAfter Food\nMonth\nAmlodipine\n5 mg\nI -0 -/\nAfter\nFood\nAtorvastatin\nIo\nma\n0 -0 -/\nNight\nAspinin\n15 ma\nWalk\ndailt\nLow\nSalt\ndiet\nNo:: 54321\nAt_\nReg:\nDate ; 28/05/2024\nR Name : Mohan Singh\nAge: 45 /M\n1.",
+            "extraction_method": "spaCy EntityRuler"
+        },
+        {
+            "medicine_name": "Amlodipine 5 Mg",
+            "category": "RxNav Clinical Drug Component",
+            "start_char": 356,
+            "end_char": 371,
+            "source_text": "Amlodipine 5 mg\n1-O-] After Food\n3.",
+            "extraction_method": "spaCy EntityRuler"
+        },
+        {
+            "medicine_name": "Atorvastatin 10 Mg",
+            "category": "RxNav Clinical Drug Component",
+            "start_char": 397,
+            "end_char": 415,
+            "source_text": "Atorvastatin 10 mg\n0-0-| Night\n4.",
+            "extraction_method": "spaCy EntityRuler"
+        }
+    ],
+    "dosages": [
+        "5 mg",
+        "10 mg",
+        "500 mg"
+    ],
+    "timings": [
+        "After Food",
+        "Night",
+        "Daily"
+    ],
+    "frequencies": [
+        "0-1-0"
+    ],
+    "table": [
+        {
+            "medicine_name": "Metformin",
+            "category": "Diabetes Control",
+            "dosage": "Not detected",
+            "timing": "Not detected",
+            "frequency": "Not detected",
+            "source_text": "Metformin",
+            "extraction_method": "spaCy EntityRuler"
+        },
+        {
+            "medicine_name": "Amlodipine",
+            "category": "Blood Pressure Control",
+            "dosage": "Not detected",
+            "timing": "Not detected",
+            "frequency": "Not detected",
+            "source_text": "Amlodipine",
+            "extraction_method": "spaCy EntityRuler"
+        },
+        {
+            "medicine_name": "Atorvastatin",
+            "category": "Cholesterol Control",
+            "dosage": "Not detected",
+            "timing": "Not detected",
+            "frequency": "Not detected",
+            "source_text": "Atorvastatin",
+            "extraction_method": "spaCy EntityRuler"
+        },
+        {
+            "medicine_name": "Metformin",
+            "category": "Diabetes Control",
+            "dosage": "Not detected",
+            "timing": "Not detected",
+            "frequency": "Not detected",
+            "source_text": "1. Tab. Metformin 500 ma",
+            "extraction_method": "spaCy EntityRuler"
+        },
+        {
+            "medicine_name": "Amlodipine 5 Mg",
+            "category": "RxNav Clinical Drug Component",
+            "dosage": "5 mg",
+            "timing": "Not detected",
+            "frequency": "Not detected",
+            "source_text": "2. Tab. Amlodipine 5 mg",
+            "extraction_method": "spaCy EntityRuler"
+        },
+        {
+            "medicine_name": "Atorvastatin 10 Mg",
+            "category": "RxNav Clinical Drug Component",
+            "dosage": "10 mg",
+            "timing": "Not detected",
+            "frequency": "Not detected",
+            "source_text": "3. Tab. Atorvastatin 10 mg",
+            "extraction_method": "spaCy EntityRuler"
+        }
+    ],
+    "created_at": "2026-06-03 13:04:34.073350"
+}

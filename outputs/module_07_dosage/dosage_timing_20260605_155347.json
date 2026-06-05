@@ -1,0 +1,68 @@
+{
+    "input_file": "ocr_text_20260605_155230.txt",
+    "input_path": "outputs/module_05_ocr\\ocr_text_20260605_155230.txt",
+    "medicines": [
+        {
+            "medicine_name": "Paracetamol",
+            "category": "Fever / Pain Relief",
+            "start_char": 103,
+            "end_char": 114,
+            "source_text": "Paracetamol\n650\nAfter Food\nAzithomycin\n500 ma\n[-0 -1\nCetinizine\n10 mg\nNight\nCough Syrup (1oo me)\ntimes\nPlentt %\nWatet\nTake\nJest\nReg:\n|2024\nDays\nTsp\ndatk\n\u201cBI Dr. RAMESH KUMAR\n| e MBBS, MD (General Medicine)\n| Reg.",
+            "extraction_method": "spaCy EntityRuler"
+        },
+        {
+            "medicine_name": "Azithromycin",
+            "category": "Antibiotic",
+            "start_char": 443,
+            "end_char": 455,
+            "source_text": "Azithromycin 500 mag\n: 3 Days\n3.",
+            "extraction_method": "spaCy EntityRuler"
+        },
+        {
+            "medicine_name": "Water",
+            "category": "RxNav Ingredient",
+            "start_char": 577,
+            "end_char": 582,
+            "source_text": "Cough Syrup (100 mb )\n1 Tsp - 3 times a day 5 Days\n| Plenty, of water\n| Take nest (os",
+            "extraction_method": "spaCy EntityRuler"
+        }
+    ],
+    "dosages": [
+        "10 mg"
+    ],
+    "timings": [
+        "Night",
+        "After Food"
+    ],
+    "frequencies": [],
+    "table": [
+        {
+            "medicine_name": "Paracetamol",
+            "category": "Fever / Pain Relief",
+            "dosage": "Not detected",
+            "timing": "Not detected",
+            "frequency": "Not detected",
+            "source_text": "Paracetamol",
+            "extraction_method": "spaCy EntityRuler"
+        },
+        {
+            "medicine_name": "Azithromycin",
+            "category": "Antibiotic",
+            "dosage": "Not detected",
+            "timing": "Not detected",
+            "frequency": "Not detected",
+            "source_text": "2. Tab. Azithromycin 500 mag",
+            "extraction_method": "spaCy EntityRuler"
+        },
+        {
+            "medicine_name": "Water",
+            "category": "RxNav Ingredient",
+            "dosage": "Not detected",
+            "timing": "Not detected",
+            "frequency": "Not detected",
+            "source_text": "| Plenty, of water",
+            "extraction_method": "spaCy EntityRuler"
+        }
+    ],
+    "created_at": "2026-06-05 15:53:47.154548"
+}

@@ -1,0 +1,44 @@
+{
+    "input_file": "detected_medicines_20260603_124905.csv",
+    "input_path": "outputs/module_06_medicines\\detected_medicines_20260603_124905.csv",
+    "recommendations": [
+        {
+            "medicine_name": "Paracetamol",
+            "category": "Fever / Pain Relief",
+            "recommendations": "Crocin, Calpol, Dolo 650",
+            "note": "Use alternatives only after doctor consultation."
+        },
+        {
+            "medicine_name": "Azithromycin",
+            "category": "Antibiotic",
+            "recommendations": "Azee, Azithral",
+            "note": "Use alternatives only after doctor consultation."
+        },
+        {
+            "medicine_name": "Water",
+            "category": "RxNav Ingredient",
+            "recommendations": "No alternative available in local database",
+            "note": "Use alternatives only after doctor consultation."
+        },
+        {
+            "medicine_name": "Genteal",
+            "category": "RxNav Brand Name",
+            "recommendations": "No alternative available in local database",
+            "note": "Use alternatives only after doctor consultation."
+        },
+        {
+            "medicine_name": "Medicone",
+            "category": "RxNav Brand Name",
+            "recommendations": "No alternative available in local database",
+            "note": "Use alternatives only after doctor consultation."
+        },
+        {
+            "medicine_name": "Cetirizine",
+            "category": "Allergy Relief",
+            "recommendations": "Levocetirizine, Allegra, Fexofenadine",
+            "note": "Use alternatives only after doctor consultation."
+        }
+    ],
+    "total_medicines": 6,
+    "created_at": "2026-06-03 12:51:48.924383"
+}

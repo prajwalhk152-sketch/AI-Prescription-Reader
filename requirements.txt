@@ -1,0 +1,11 @@
+streamlit==1.58.0
+pymongo==4.6.1
+python-dotenv==1.0.0
+opencv-python-headless==4.13.0.92
+pillow==12.2.0
+numpy==2.4.6
+pandas==3.0.3
+pytesseract==0.3.13
+reportlab==4.4.5
+bcrypt==5.0.0
+requests==2.34.2

@@ -1,0 +1,50 @@
+{
+    "input_file": "detected_medicines_20260603_130406.csv",
+    "input_path": "outputs/module_06_medicines\\detected_medicines_20260603_130406.csv",
+    "benefits": [
+        {
+            "medicine_name": "Amlodipine 5 Mg",
+            "category": "RxNav Clinical Drug Component",
+            "benefit_explanation": "Amlodipine 5 Mg belongs to the RxNav Clinical Drug Component group. Amlodipine 5 Mg is generally used for rxnav clinical drug component. Please follow the doctor's prescription and do not self-medicate. In simple terms, it may help manage the condition written in the prescription, but the exact reason, dose, and duration should always be confirmed with the doctor. Avoid changing the dose or replacing it with another medicine without medical advice.",
+            "generation_method": "OPENAI_API_KEY is not configured. Used local GenAI-style explanation.",
+            "patient_note": "Take this medicine only as prescribed by your doctor."
+        },
+        {
+            "medicine_name": "Atorvastatin 10 Mg",
+            "category": "RxNav Clinical Drug Component",
+            "benefit_explanation": "Atorvastatin 10 Mg belongs to the RxNav Clinical Drug Component group. Atorvastatin 10 Mg is generally used for rxnav clinical drug component. Please follow the doctor's prescription and do not self-medicate. In simple terms, it may help manage the condition written in the prescription, but the exact reason, dose, and duration should always be confirmed with the doctor. Avoid changing the dose or replacing it with another medicine without medical advice.",
+            "generation_method": "OPENAI_API_KEY is not configured. Used local GenAI-style explanation.",
+            "patient_note": "Take this medicine only as prescribed by your doctor."
+        },
+        {
+            "medicine_name": "Metformin",
+            "category": "Diabetes Control",
+            "benefit_explanation": "Metformin belongs to the Diabetes Control group. Used to control blood sugar levels in patients with type 2 diabetes. In simple terms, it may help manage the condition written in the prescription, but the exact reason, dose, and duration should always be confirmed with the doctor. Avoid changing the dose or replacing it with another medicine without medical advice.",
+            "generation_method": "OPENAI_API_KEY is not configured. Used local GenAI-style explanation.",
+            "patient_note": "Take this medicine only as prescribed by your doctor."
+        },
+        {
+            "medicine_name": "Medicone",
+            "category": "RxNav Brand Name",
+            "benefit_explanation": "Medicone belongs to the RxNav Brand Name group. Medicone is generally used for rxnav brand name. Please follow the doctor's prescription and do not self-medicate. In simple terms, it may help manage the condition written in the prescription, but the exact reason, dose, and duration should always be confirmed with the doctor. Avoid changing the dose or replacing it with another medicine without medical advice.",
+            "generation_method": "OPENAI_API_KEY is not configured. Used local GenAI-style explanation.",
+            "patient_note": "Take this medicine only as prescribed by your doctor."
+        },
+        {
+            "medicine_name": "Aspirin",
+            "category": "Blood Thinner",
+            "benefit_explanation": "Aspirin belongs to the Blood Thinner group. Used for pain relief and sometimes to reduce blood clotting risk under medical advice. In simple terms, it may help manage the condition written in the prescription, but the exact reason, dose, and duration should always be confirmed with the doctor. Avoid changing the dose or replacing it with another medicine without medical advice.",
+            "generation_method": "OPENAI_API_KEY is not configured. Used local GenAI-style explanation.",
+            "patient_note": "Take this medicine only as prescribed by your doctor."
+        },
+        {
+            "medicine_name": "Dilt",
+            "category": "RxNav Brand Name",
+            "benefit_explanation": "Dilt belongs to the RxNav Brand Name group. Dilt is generally used for rxnav brand name. Please follow the doctor's prescription and do not self-medicate. In simple terms, it may help manage the condition written in the prescription, but the exact reason, dose, and duration should always be confirmed with the doctor. Avoid changing the dose or replacing it with another medicine without medical advice.",
+            "generation_method": "OPENAI_API_KEY is not configured. Used local GenAI-style explanation.",
+            "patient_note": "Take this medicine only as prescribed by your doctor."
+        }
+    ],
+    "total_medicines": 6,
+    "created_at": "2026-06-03 13:05:01.750126"
+}

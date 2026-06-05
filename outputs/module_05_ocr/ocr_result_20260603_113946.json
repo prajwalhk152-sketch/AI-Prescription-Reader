@@ -1,0 +1,13 @@
+{
+    "input_image": "preprocessed_20260603_113153.png",
+    "input_path": "outputs/module_04_preprocessed\\preprocessed_20260603_113153.png",
+    "ocr_engine": "EasyOCR",
+    "handwriting_mode": false,
+    "tesseract_text": "",
+    "easyocr_text": "Medicatiol Name\nDosage: Ercqucncy NUM of =\nTAB ZOCEF_\nSQOMG , 1;0-1\nAFTER FOOD FOR SDAYS\nTAB: ENZOFLAM SP\nTAB\nfoi\nAFTER FOOD FOR SDAYS\nTABPANTOP\n4OMG\n1-0-0 `\nBEFORE FOOD FOR SDAYS\n79\n#TAB UPRISE D3\nITAB-\n1-0-C\nJAFTER FOOD FOR 10 DAYS\nFOLLOWED BY ONCE IN A WEEK FOR LFFETME\nCAB STEPEHS OMEGHA\n1TAB\n1-0-\nAFTER FOOD FOR IMONTH\nTABMG BoOST PLUs:\n1TAB?\n1-0- 2\nAFTER FOOD FOR MONTH\nPLACENTREX CREAM\n1-0: _\nFOR 2 WEEKS\nSOLSPRE SPRAy\n1-0-1\nFOR 2 WEEKS\nReveiv o: -\nReview after\n'days prio; appointment-in opd with Dr.Stcphen A (ENT )\nPxepared By;\nTREATING CONSULTANT\nDr: Stephen A\n(ENT)\nDr Keshava Chari\n(38185)\nNo 139\nCtclo\n(Consultant)\nSC, Roed\nDays\nCenlral\n0\n0\nSwasuk\nLhles\n8\nSashadtlpuem\nDongalurv'\n560",
+    "combined_text": "Medicatiol Name\nDosage: Ercqucncy NUM of =\nTAB ZOCEF_\nSQOMG , 1;0-1\nAFTER FOOD FOR SDAYS\nTAB: ENZOFLAM SP\nTAB\nfoi\nTABPANTOP\n4OMG\n1-0-0 `\nBEFORE FOOD FOR SDAYS\n79\n#TAB UPRISE D3\nITAB-\n1-0-C\nJAFTER FOOD FOR 10 DAYS\nFOLLOWED BY ONCE IN A WEEK FOR LFFETME\nCAB STEPEHS OMEGHA\n1TAB\n1-0-\nAFTER FOOD FOR IMONTH\nTABMG BoOST PLUs:\n1-0- 2\nAFTER FOOD FOR MONTH\nPLACENTREX CREAM\nFOR 2 WEEKS\nSOLSPRE SPRAy\n1-0-1\nReveiv o: -\nReview after\n'days prio; appointment-in opd with Dr.Stcphen A (ENT )\nPxepared By;\nTREATING CONSULTANT\nDr: Stephen A\n(ENT)\nDr Keshava Chari\n(38185)\nNo 139\nCtclo\n(Consultant)\nSC, Roed\nDays\nCenlral\nSwasuk\nLhles\nSashadtlpuem\nDongalurv'\n560",
+    "medicine_rescue_matches": [],
+    "basic_confidence_percent": 80,
+    "text_file_path": "outputs/module_05_ocr\\ocr_text_20260603_113946.txt",
+    "created_at": "2026-06-03 11:39:46.650747"
+}

@@ -1,0 +1,4 @@
+medicine_name,category,dosage,timing,frequency,source_text,extraction_method
+Not detected,Unknown,1TAB,Before Food,1-0-0,No medicine entity detected,Dosage pattern fallback
+Not detected,Unknown,40MG,After Food,HS,No medicine entity detected,Dosage pattern fallback
+Not detected,Unknown,Not detected,Not detected,1-0-1,No medicine entity detected,Dosage pattern fallback

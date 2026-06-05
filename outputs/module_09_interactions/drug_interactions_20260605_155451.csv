@@ -1,0 +1,16 @@
+medicine_1,medicine_2,risk_percent,risk_level,warning
+Amlodipine 5 Mg,Atorvastatin 10 Mg,0,No Known Risk,No major known interaction found in the local database.
+Amlodipine 5 Mg,Metformin,0,No Known Risk,No major known interaction found in the local database.
+Amlodipine 5 Mg,Medicone,0,No Known Risk,No major known interaction found in the local database.
+Amlodipine 5 Mg,Aspirin,0,No Known Risk,No major known interaction found in the local database.
+Amlodipine 5 Mg,Dilt,0,No Known Risk,No major known interaction found in the local database.
+Atorvastatin 10 Mg,Metformin,0,No Known Risk,No major known interaction found in the local database.
+Atorvastatin 10 Mg,Medicone,0,No Known Risk,No major known interaction found in the local database.
+Atorvastatin 10 Mg,Aspirin,0,No Known Risk,No major known interaction found in the local database.
+Atorvastatin 10 Mg,Dilt,0,No Known Risk,No major known interaction found in the local database.
+Metformin,Medicone,0,No Known Risk,No major known interaction found in the local database.
+Metformin,Aspirin,0,No Known Risk,No major known interaction found in the local database.
+Metformin,Dilt,0,No Known Risk,No major known interaction found in the local database.
+Medicone,Aspirin,0,No Known Risk,No major known interaction found in the local database.
+Medicone,Dilt,0,No Known Risk,No major known interaction found in the local database.
+Aspirin,Dilt,0,No Known Risk,No major known interaction found in the local database.

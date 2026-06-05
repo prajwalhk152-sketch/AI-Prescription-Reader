@@ -1,0 +1,2 @@
+medicine_name,category,confidence,detection_method,score
+Priorix,RxNav Brand Name,Medium,Fuzzy Match (Typo Detection),0.83

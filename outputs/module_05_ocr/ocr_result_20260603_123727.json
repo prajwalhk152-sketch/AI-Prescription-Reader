@@ -1,0 +1,21 @@
+{
+    "input_image": "preprocessed_20260603_123623.png",
+    "input_path": "outputs/module_04_preprocessed\\preprocessed_20260603_123623.png",
+    "ocr_engine": "Both",
+    "handwriting_mode": false,
+    "tesseract_text": "_Micbicatot Name rah Dosage ; Frequency NUM of Days ~\ncea acese Seis ye) S00MG.\u00a30-1 ! AFTER FOOD FOR SDAYS\nede fake \\ZOFLAM SP\u201d, =1TAB ;1-0-1 AFTER FOOD FOR SDAYS\nHS TABPANTOP. -*..3-. 3 <40MG {1-0-0 : BEFORE FOOD FOR SDAYS\nUTAB UPRISE D3stepee = ITAB-\u00ab 1.6.0\"... \"AFTER FOOD FOR 10 DAYS\nON \u201c) ow habe ig 4) Nyaa fx. . FOLLOWED BY ONCE INA WEEK FOR LIFETIME\nUAB STEPEHS.OMEGHAS, ITABS\\\"1-0-1.,;\"_ AFTER FOOD FOR IMONTH\n\u201832: TAB MG BOOST PLUS! \"1 TABNII-0-17) | AFTER FOOD FOR IMONTH\n2 PLACENTREX CREAM , Yo 24 1-0-1, \u201c, \"FOR 2 WEEKS\n+ 2 7Review after 7 days prior, appointment in opd with Dr .Stephen A (ENT )\n= + Prepared By a Pas \u201c4 \u201c22 TREATING CONSULTANT\nSe Bo ORE. Les DS \u2018. 4\" Dr. Stephen A aa\n\u201c= \"Dr-Keshava Chari M ~ ian Serre F-\"\" \u201d (38185) fy) ite a\n. oe wee % . gn! r ae a E Road *",
+    "easyocr_text": "Medicatiol Name\nDosage: Ercqucncy NUM of =\nTAB ZOCEF_\nSQOMG , 10-1\nAFTER FOOD FOR SDAYS\nTAB: ENZOFLAM SP\nTAB\nfoi\nAFTER FOOD FOR SDAYS\nTABPANTOP\n4OMG\n1-0-0 `\nBEFORE FOOD FOR SDAYS\n79\n#TAB UPRISE D3\nITAB-\n1-0-C\nJAFTER FOOD FOR 10 DAYS\nFOLLOWED BY ONCE IN A WEEK FOR LFFETME\nCAB STEPEHS OMEGHA\n1TAB\n1-0-\nAFTER FOOD FOR IMONTH\nTABMG BoOST PLUs:\n1TAB?\n1-0- 2\nAFTER FOOD FOR MONTH\nPLACENTREX CREAM\n1-0: _\nFOR 2 WEEKS\nSOLSPRE SPRAy\n1-0-1\nFOR 2 WEEKS\nReveiv o: -\nReview after\ndays prio; appointment-in opd with Dr.Stcphen A (ENT )\nPxepared By;\nTREATING CONSULTANT\nDr: Stephen A\n(ENT)\nDr Keshava Chari\n(38185)\nNo 139\nCtclo\n(Consultant)\nSC, Roed\nDays\nCenlral\n0\n0\nSwasuk\nLhles\n8\nSashadtlpuem\nDongalurv'\n560",
+    "combined_text": "Medicatiol Name\nDosage: Ercqucncy NUM of =\nTAB ZOCEF_\nSQOMG , 10-1\nAFTER FOOD FOR SDAYS\nTAB: ENZOFLAM SP\nTAB\nfoi\nTABPANTOP\n4OMG\n1-0-0 `\nBEFORE FOOD FOR SDAYS\n79\n#TAB UPRISE D3\nITAB-\n1-0-C\nJAFTER FOOD FOR 10 DAYS\nFOLLOWED BY ONCE IN A WEEK FOR LFFETME\nCAB STEPEHS OMEGHA\n1TAB\n1-0-\nAFTER FOOD FOR IMONTH\nTABMG BoOST PLUs:\n1-0- 2\nAFTER FOOD FOR MONTH\nPLACENTREX CREAM\nFOR 2 WEEKS\nSOLSPRE SPRAy\n1-0-1\nReveiv o: -\nReview after\ndays prio; appointment-in opd with Dr.Stcphen A (ENT )\nPxepared By;\nTREATING CONSULTANT\nDr: Stephen A\n(ENT)\nDr Keshava Chari\n(38185)\nNo 139\nCtclo\n(Consultant)\nSC, Roed\nDays\nCenlral\nSwasuk\nLhles\nSashadtlpuem\nDongalurv'\n560\n_Micbicatot Name rah Dosage ; Frequency NUM of Days ~\ncea acese Seis ye) S00MG.\u00a30-1 ! AFTER FOOD FOR SDAYS\nede fake \\ZOFLAM SP\u201d, =1TAB ;1-0-1 AFTER FOOD FOR SDAYS\nHS TABPANTOP. -*..3-. 3 <40MG {1-0-0 : BEFORE FOOD FOR SDAYS\nUTAB UPRISE D3stepee = ITAB-\u00ab 1.6.0\"... \"AFTER FOOD FOR 10 DAYS\nON \u201c) ow habe ig 4) Nyaa fx. . FOLLOWED BY ONCE INA WEEK FOR LIFETIME\nUAB STEPEHS.OMEGHAS, ITABS\\\"1-0-1.,;\"_ AFTER FOOD FOR IMONTH\n\u201832: TAB MG BOOST PLUS! \"1 TABNII-0-17) | AFTER FOOD FOR IMONTH\n2 PLACENTREX CREAM , Yo 24 1-0-1, \u201c, \"FOR 2 WEEKS\n+ 2 7Review after 7 days prior, appointment in opd with Dr .Stephen A (ENT )\n= + Prepared By a Pas \u201c4 \u201c22 TREATING CONSULTANT\nSe Bo ORE. Les DS \u2018. 4\" Dr. Stephen A aa\n\u201c= \"Dr-Keshava Chari M ~ ian Serre F-\"\" \u201d (38185) fy) ite a\n. oe wee % . gn! r ae a E Road *",
+    "medicine_rescue_matches": [
+        {
+            "medicine_name": "Priorix",
+            "category": "RxNav Brand Name",
+            "confidence": "Medium",
+            "detection_method": "Fuzzy Match (Typo Detection)",
+            "score": 0.83
+        }
+    ],
+    "basic_confidence_percent": 80,
+    "text_file_path": "outputs/module_05_ocr\\ocr_text_20260603_123727.txt",
+    "created_at": "2026-06-03 12:37:27.967821"
+}

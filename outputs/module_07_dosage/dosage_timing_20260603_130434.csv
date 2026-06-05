@@ -1,0 +1,7 @@
+medicine_name,category,dosage,timing,frequency,source_text,extraction_method
+Metformin,Diabetes Control,Not detected,Not detected,Not detected,Metformin,spaCy EntityRuler
+Amlodipine,Blood Pressure Control,Not detected,Not detected,Not detected,Amlodipine,spaCy EntityRuler
+Atorvastatin,Cholesterol Control,Not detected,Not detected,Not detected,Atorvastatin,spaCy EntityRuler
+Metformin,Diabetes Control,Not detected,Not detected,Not detected,1. Tab. Metformin 500 ma,spaCy EntityRuler
+Amlodipine 5 Mg,RxNav Clinical Drug Component,5 mg,Not detected,Not detected,2. Tab. Amlodipine 5 mg,spaCy EntityRuler
+Atorvastatin 10 Mg,RxNav Clinical Drug Component,10 mg,Not detected,Not detected,3. Tab. Atorvastatin 10 mg,spaCy EntityRuler

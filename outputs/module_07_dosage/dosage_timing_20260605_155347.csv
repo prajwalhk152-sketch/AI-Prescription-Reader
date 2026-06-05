@@ -1,0 +1,4 @@
+medicine_name,category,dosage,timing,frequency,source_text,extraction_method
+Paracetamol,Fever / Pain Relief,Not detected,Not detected,Not detected,Paracetamol,spaCy EntityRuler
+Azithromycin,Antibiotic,Not detected,Not detected,Not detected,2. Tab. Azithromycin 500 mag,spaCy EntityRuler
+Water,RxNav Ingredient,Not detected,Not detected,Not detected,"| Plenty, of water",spaCy EntityRuler

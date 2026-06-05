@@ -1,0 +1,56 @@
+{
+    "input_image": "preprocessed_20260603_124639.png",
+    "input_path": "outputs/module_04_preprocessed\\preprocessed_20260603_124639.png",
+    "ocr_engine": "Both",
+    "handwriting_mode": false,
+    "tesseract_text": "|\n\n\u201cBI Dr. RAMESH KUMAR\n| e MBBS, MD (General Medicine)\n| Reg. No.: 12345\n| Date: 12 [05/2024\n| K Name: Ravi Sharma\n\nAge: 32 /\u2122M\n\n1. Tab. Poracetamoel 650 me\n| l-{-| After Food\n5 Days\n\n2. Tab. Azithromycin 500 mag\n: 3 Days\n3. Tab. Cetinizine 10 mg\n\n1-O-{ Night\n\n: 5 Days\n&. Cough Syrup (100 mb )\n1 Tsp - 3 times a day 5 Days\n| Plenty, of water\n| Take nest (os\n| Dr. Ramesh Kumar\n: Reg. No.: 12345\n|",
+    "easyocr_text": "Dr: RAMESH KUMAR\nMBBS, MD (General Medicine)\nNo:: 12345\nDate : 12 /05\nR\nName\nRavi\nSharma\nAge\n32 / M\n1.\nTab.\nParacetamol\n650\nm&\n{--1\nAfter Food\n5\n2.\nTab.\nAzithomycin\n500 ma\n[-0 -1\nAfter Food\n3\n3.\nTab.\nCetinizine\n10 mg\n{-0 - /\nNight\n5\nCough   Syrup  (1oo me)\n1\n3\ntimes\n0\n5\nPlentt %\nWatet\nTake\nJest\nV\nDr: Ramesh Kumar\nNo:: 12345\nReg:\n|2024\nDays\nDays\nDays\n:4.\nDays\nTsp\ndatk\nReg:",
+    "combined_text": "Dr: RAMESH KUMAR\nMBBS, MD (General Medicine)\nNo:: 12345\nDate : 12 /05\nName\nRavi\nSharma\nAge\n32 / M\nTab.\nParacetamol\n650\nAfter Food\nAzithomycin\n500 ma\n[-0 -1\nCetinizine\n10 mg\nNight\nCough Syrup (1oo me)\ntimes\nPlentt %\nWatet\nTake\nJest\nReg:\n|2024\nDays\nTsp\ndatk\n\u201cBI Dr. RAMESH KUMAR\n| e MBBS, MD (General Medicine)\n| Reg. No.: 12345\n| Date: 12 [05/2024\n| K Name: Ravi Sharma\nAge: 32 /\u2122M\n1. Tab. Poracetamoel 650 me\n| l-{-| After Food\n5 Days\n2. Tab. Azithromycin 500 mag\n: 3 Days\n3. Tab. Cetinizine 10 mg\n1-O-{ Night\n&. Cough Syrup (100 mb )\n1 Tsp - 3 times a day 5 Days\n| Plenty, of water\n| Take nest (os",
+    "medicine_rescue_matches": [
+        {
+            "medicine_name": "Paracetamol",
+            "category": "Fever / Pain Relief",
+            "confidence": "High",
+            "detection_method": "Exact Phrase Match",
+            "score": 1.0
+        },
+        {
+            "medicine_name": "Azithromycin",
+            "category": "Antibiotic",
+            "confidence": "High",
+            "detection_method": "Exact Phrase Match",
+            "score": 1.0
+        },
+        {
+            "medicine_name": "Water",
+            "category": "RxNav Ingredient",
+            "confidence": "High",
+            "detection_method": "Exact Phrase Match",
+            "score": 1.0
+        },
+        {
+            "medicine_name": "Genteal",
+            "category": "RxNav Brand Name",
+            "confidence": "High",
+            "detection_method": "Fuzzy Match (Typo Detection)",
+            "score": 0.86
+        },
+        {
+            "medicine_name": "Medicone",
+            "category": "RxNav Brand Name",
+            "confidence": "High",
+            "detection_method": "Fuzzy Match (Typo Detection)",
+            "score": 0.88
+        },
+        {
+            "medicine_name": "Cetirizine",
+            "category": "Allergy Relief",
+            "confidence": "High",
+            "detection_method": "Fuzzy Match (Typo Detection)",
+            "score": 0.9
+        }
+    ],
+    "basic_confidence_percent": 80,
+    "text_file_path": "outputs/module_05_ocr\\ocr_text_20260603_124816.txt",
+    "created_at": "2026-06-03 12:48:16.766160"
+}

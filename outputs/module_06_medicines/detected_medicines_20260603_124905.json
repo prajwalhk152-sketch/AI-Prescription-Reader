@@ -1,0 +1,52 @@
+{
+    "input_file": "ocr_text_20260603_124816.txt",
+    "input_path": "outputs/module_05_ocr\\ocr_text_20260603_124816.txt",
+    "detected_medicines": [
+        {
+            "medicine_name": "Paracetamol",
+            "category": "Fever / Pain Relief",
+            "confidence": "High",
+            "detection_method": "Exact Phrase Match",
+            "score": 1.0
+        },
+        {
+            "medicine_name": "Azithromycin",
+            "category": "Antibiotic",
+            "confidence": "High",
+            "detection_method": "Exact Phrase Match",
+            "score": 1.0
+        },
+        {
+            "medicine_name": "Water",
+            "category": "RxNav Ingredient",
+            "confidence": "High",
+            "detection_method": "Exact Phrase Match",
+            "score": 1.0
+        },
+        {
+            "medicine_name": "Genteal",
+            "category": "RxNav Brand Name",
+            "confidence": "High",
+            "detection_method": "Fuzzy Match (Typo Detection)",
+            "score": 0.86
+        },
+        {
+            "medicine_name": "Medicone",
+            "category": "RxNav Brand Name",
+            "confidence": "High",
+            "detection_method": "Fuzzy Match (Typo Detection)",
+            "score": 0.88
+        },
+        {
+            "medicine_name": "Cetirizine",
+            "category": "Allergy Relief",
+            "confidence": "High",
+            "detection_method": "Fuzzy Match (Typo Detection)",
+            "score": 0.9
+        }
+    ],
+    "total_medicines_detected": 6,
+    "detection_timestamp": "2026-06-03 12:49:05.865987",
+    "database_size": 50124,
+    "categories_covered": 59
+}

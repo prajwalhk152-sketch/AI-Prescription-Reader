@@ -1,0 +1,16 @@
+medicine_1,medicine_2,risk_percent,risk_level,warning
+Paracetamol,Azithromycin,0,No Known Risk,No major known interaction found in the local database.
+Paracetamol,Water,0,No Known Risk,No major known interaction found in the local database.
+Paracetamol,Genteal,0,No Known Risk,No major known interaction found in the local database.
+Paracetamol,Medicone,0,No Known Risk,No major known interaction found in the local database.
+Paracetamol,Cetirizine,0,No Known Risk,No major known interaction found in the local database.
+Azithromycin,Water,0,No Known Risk,No major known interaction found in the local database.
+Azithromycin,Genteal,0,No Known Risk,No major known interaction found in the local database.
+Azithromycin,Medicone,0,No Known Risk,No major known interaction found in the local database.
+Azithromycin,Cetirizine,0,No Known Risk,No major known interaction found in the local database.
+Water,Genteal,0,No Known Risk,No major known interaction found in the local database.
+Water,Medicone,0,No Known Risk,No major known interaction found in the local database.
+Water,Cetirizine,0,No Known Risk,No major known interaction found in the local database.
+Genteal,Medicone,0,No Known Risk,No major known interaction found in the local database.
+Genteal,Cetirizine,0,No Known Risk,No major known interaction found in the local database.
+Medicone,Cetirizine,0,No Known Risk,No major known interaction found in the local database.

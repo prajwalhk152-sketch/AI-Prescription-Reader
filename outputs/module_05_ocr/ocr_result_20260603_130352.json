@@ -1,0 +1,56 @@
+{
+    "input_image": "preprocessed_20260603_130235.png",
+    "input_path": "outputs/module_04_preprocessed\\preprocessed_20260603_130235.png",
+    "ocr_engine": "Both",
+    "handwriting_mode": false,
+    "tesseract_text": "Dr. SURESH PATIL\nMBBS, MD (Medicine)\nReg. No.: 54321\nDate ; 28/05/2024\nR Name : Mohan Singh\nAge: 45 /M\n1. Tab. Metformin 500 ma\n1 Month\n2. Tab. Amlodipine 5 mg\n1-O-] After Food\n| Month\n3. Tab. Atorvastatin 10 mg\n0-0-| Night\n| Month\n4. Tab. Aspinin #5 mg\n0-1-0 After Food\n| Month\nWalk daily\nLow salt diet put\nDr. Suresh Patil\nReg. No.: 54321",
+    "easyocr_text": "Dr: SURESH PATIL\nMBBS, MD (Medicine)\nReg: No:: 54321\nDate\n28 /o5 |2024\nR\nName\nMohan\nSingh\nAge\n45 | M\n1.\nTab.\nMetformin\n500 mg\nI--/\nAfter Food\n1\nMonth\n2 .\nTab.\nAmlodipine\n5 mg\nI -0 -/\nAfter\nFood\nMonth\n3.\nTab.\nAtorvastatin\nIo\nma\n0 -0 -/\nNight\nMonth\n4.\nTab.\nAspinin\n15 ma\nAfter Food\n0 - | -0\nMonth\nWalk\ndailt\nLow\nSalt\ndiet\nDr: Suresh Patil\nNo:: 54321\nAt_\nReg:",
+    "combined_text": "Dr: SURESH PATIL\nMBBS, MD (Medicine)\nReg: No:: 54321\nDate\n28 /o5 |2024\nName\nMohan\nSingh\nAge\n45 | M\nTab.\nMetformin\n500 mg\nAfter Food\nMonth\nAmlodipine\n5 mg\nI -0 -/\nAfter\nFood\nAtorvastatin\nIo\nma\n0 -0 -/\nNight\nAspinin\n15 ma\nWalk\ndailt\nLow\nSalt\ndiet\nNo:: 54321\nAt_\nReg:\nDate ; 28/05/2024\nR Name : Mohan Singh\nAge: 45 /M\n1. Tab. Metformin 500 ma\n1 Month\n2. Tab. Amlodipine 5 mg\n1-O-] After Food\n3. Tab. Atorvastatin 10 mg\n0-0-| Night\n4. Tab. Aspinin #5 mg\n0-1-0 After Food\nWalk daily\nLow salt diet put",
+    "medicine_rescue_matches": [
+        {
+            "medicine_name": "Amlodipine 5 Mg",
+            "category": "RxNav Clinical Drug Component",
+            "confidence": "High",
+            "detection_method": "Exact Phrase Match",
+            "score": 1.0
+        },
+        {
+            "medicine_name": "Atorvastatin 10 Mg",
+            "category": "RxNav Clinical Drug Component",
+            "confidence": "High",
+            "detection_method": "Exact Phrase Match",
+            "score": 1.0
+        },
+        {
+            "medicine_name": "Metformin",
+            "category": "Diabetes Control",
+            "confidence": "High",
+            "detection_method": "Exact Phrase Match",
+            "score": 1.0
+        },
+        {
+            "medicine_name": "Medicone",
+            "category": "RxNav Brand Name",
+            "confidence": "High",
+            "detection_method": "Fuzzy Match (Typo Detection)",
+            "score": 0.88
+        },
+        {
+            "medicine_name": "Aspirin",
+            "category": "Blood Thinner",
+            "confidence": "High",
+            "detection_method": "Fuzzy Match (Typo Detection)",
+            "score": 0.86
+        },
+        {
+            "medicine_name": "Dilt",
+            "category": "RxNav Brand Name",
+            "confidence": "High",
+            "detection_method": "Fuzzy Match (Typo Detection)",
+            "score": 0.89
+        }
+    ],
+    "basic_confidence_percent": 80,
+    "text_file_path": "outputs/module_05_ocr\\ocr_text_20260603_130352.txt",
+    "created_at": "2026-06-03 13:03:52.237888"
+}

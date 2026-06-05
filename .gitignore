@@ -1,0 +1,6 @@
+.env
+AI-Prescription-Reader/
+__pycache__/
+*.pyc
+.venv/
+venv/

@@ -1,0 +1,15 @@
+{
+    "input_file": "detected_medicines_20260603_115727.csv",
+    "input_path": "outputs/module_06_medicines\\detected_medicines_20260603_115727.csv",
+    "benefits": [
+        {
+            "medicine_name": "Priorix",
+            "category": "RxNav Brand Name",
+            "benefit_explanation": "Priorix belongs to the RxNav Brand Name group. Priorix is generally used for rxnav brand name. Please follow the doctor's prescription and do not self-medicate. In simple terms, it may help manage the condition written in the prescription, but the exact reason, dose, and duration should always be confirmed with the doctor. Avoid changing the dose or replacing it with another medicine without medical advice.",
+            "generation_method": "OPENAI_API_KEY is not configured. Used local GenAI-style explanation.",
+            "patient_note": "Take this medicine only as prescribed by your doctor."
+        }
+    ],
+    "total_medicines": 1,
+    "created_at": "2026-06-03 11:59:03.205027"
+}

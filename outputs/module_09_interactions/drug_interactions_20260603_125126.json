@@ -1,0 +1,124 @@
+{
+    "input_file": "detected_medicines_20260603_124905.csv",
+    "input_path": "outputs/module_06_medicines\\detected_medicines_20260603_124905.csv",
+    "medicines_checked": [
+        "Paracetamol",
+        "Azithromycin",
+        "Water",
+        "Genteal",
+        "Medicone",
+        "Cetirizine"
+    ],
+    "total_pairs_checked": 15,
+    "high_risk_count": 0,
+    "moderate_risk_count": 0,
+    "low_risk_count": 0,
+    "interaction_results": [
+        {
+            "medicine_1": "Paracetamol",
+            "medicine_2": "Azithromycin",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Paracetamol",
+            "medicine_2": "Water",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Paracetamol",
+            "medicine_2": "Genteal",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Paracetamol",
+            "medicine_2": "Medicone",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Paracetamol",
+            "medicine_2": "Cetirizine",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Azithromycin",
+            "medicine_2": "Water",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Azithromycin",
+            "medicine_2": "Genteal",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Azithromycin",
+            "medicine_2": "Medicone",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Azithromycin",
+            "medicine_2": "Cetirizine",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Water",
+            "medicine_2": "Genteal",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Water",
+            "medicine_2": "Medicone",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Water",
+            "medicine_2": "Cetirizine",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Genteal",
+            "medicine_2": "Medicone",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Genteal",
+            "medicine_2": "Cetirizine",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Medicone",
+            "medicine_2": "Cetirizine",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        }
+    ],
+    "created_at": "2026-06-03 12:51:26.735556"
+}

@@ -1,0 +1,52 @@
+{
+    "input_file": "ocr_text_20260603_130352.txt",
+    "input_path": "outputs/module_05_ocr\\ocr_text_20260603_130352.txt",
+    "detected_medicines": [
+        {
+            "medicine_name": "Amlodipine 5 Mg",
+            "category": "RxNav Clinical Drug Component",
+            "confidence": "High",
+            "detection_method": "Exact Phrase Match",
+            "score": 1.0
+        },
+        {
+            "medicine_name": "Atorvastatin 10 Mg",
+            "category": "RxNav Clinical Drug Component",
+            "confidence": "High",
+            "detection_method": "Exact Phrase Match",
+            "score": 1.0
+        },
+        {
+            "medicine_name": "Metformin",
+            "category": "Diabetes Control",
+            "confidence": "High",
+            "detection_method": "Exact Phrase Match",
+            "score": 1.0
+        },
+        {
+            "medicine_name": "Medicone",
+            "category": "RxNav Brand Name",
+            "confidence": "High",
+            "detection_method": "Fuzzy Match (Typo Detection)",
+            "score": 0.88
+        },
+        {
+            "medicine_name": "Aspirin",
+            "category": "Blood Thinner",
+            "confidence": "High",
+            "detection_method": "Fuzzy Match (Typo Detection)",
+            "score": 0.86
+        },
+        {
+            "medicine_name": "Dilt",
+            "category": "RxNav Brand Name",
+            "confidence": "High",
+            "detection_method": "Fuzzy Match (Typo Detection)",
+            "score": 0.89
+        }
+    ],
+    "total_medicines_detected": 6,
+    "detection_timestamp": "2026-06-05 15:53:18.140881",
+    "database_size": 50126,
+    "categories_covered": 62
+}

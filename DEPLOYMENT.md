@@ -1,15 +1,15 @@
 # Docker Deployment
 
-This project runs as a Dockerized Streamlit app. The container installs the native OCR dependency `tesseract-ocr` and starts Streamlit on the `$PORT` provided by Render or Railway.
+This project runs as a Dockerized FastAPI app that serves the React frontend and API from one process. The container installs the native OCR dependency `tesseract-ocr` and starts Uvicorn on the `$PORT` provided by Render or Railway.
 
 ## Build Locally
 
 ```bash
 docker build -t ai-prescription-reader .
-docker run --env-file .env -p 8501:8501 ai-prescription-reader
+docker run --env-file .env -p 8000:8000 ai-prescription-reader
 ```
 
-Open `http://localhost:8501`.
+Open `http://localhost:8000`.
 
 ## Push To Docker Hub
 

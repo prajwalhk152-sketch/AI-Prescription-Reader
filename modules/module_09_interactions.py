@@ -1,9 +1,24 @@
-import streamlit as st
 import os
 import json
 import pandas as pd
 from itertools import combinations
 from datetime import datetime
+
+
+class _StreamlitFallback:
+    def cache_data(self, **_kwargs):
+        def decorator(func):
+            return func
+        return decorator
+
+    def __getattr__(self, name):
+        raise RuntimeError(
+            f"Streamlit UI function st.{name} is unavailable. "
+            "Run the React/FastAPI app instead."
+        )
+
+
+st = _StreamlitFallback()
 
 INPUT_DIR = "outputs/module_06_medicines"
 OUTPUT_DIR = "outputs/module_09_interactions"
@@ -60,6 +75,111 @@ INTERACTION_DATABASE = {
         "risk": 80,
         "level": "High",
         "warning": "May increase bleeding risk. Doctor supervision required."
+    },
+    ("Ibuprofen", "Clopidogrel"): {
+        "risk": 82,
+        "level": "High",
+        "warning": "May increase bleeding risk, especially stomach bleeding. Use only with doctor supervision."
+    },
+    ("Aspirin", "Warfarin"): {
+        "risk": 95,
+        "level": "High",
+        "warning": "May increase bleeding risk. Immediate doctor consultation recommended."
+    },
+    ("Ibuprofen", "Warfarin"): {
+        "risk": 90,
+        "level": "High",
+        "warning": "May increase serious bleeding risk."
+    },
+    ("Paracetamol", "Warfarin"): {
+        "risk": 60,
+        "level": "Moderate",
+        "warning": "Repeated or high-dose use may affect blood thinning control. Follow doctor advice."
+    },
+    ("Azithromycin", "Atorvastatin"): {
+        "risk": 55,
+        "level": "Moderate",
+        "warning": "May increase statin side-effect risk in some patients. Report muscle pain or weakness."
+    },
+    ("Clarithromycin", "Atorvastatin"): {
+        "risk": 88,
+        "level": "High",
+        "warning": "May strongly increase statin side effects. Doctor review is recommended."
+    },
+    ("Clarithromycin", "Simvastatin"): {
+        "risk": 92,
+        "level": "High",
+        "warning": "May strongly increase simvastatin toxicity risk. Avoid unless specifically supervised."
+    },
+    ("Amlodipine", "Atorvastatin"): {
+        "risk": 45,
+        "level": "Low",
+        "warning": "Usually manageable, but monitor for statin side effects if prescribed together."
+    },
+    ("Amlodipine", "Simvastatin"): {
+        "risk": 70,
+        "level": "Moderate",
+        "warning": "May increase statin side effects. Doctor monitoring required."
+    },
+    ("Metformin", "Ibuprofen"): {
+        "risk": 45,
+        "level": "Low",
+        "warning": "Kidney function should be considered, especially in dehydration or kidney disease."
+    },
+    ("Metformin", "Aspirin"): {
+        "risk": 35,
+        "level": "Low",
+        "warning": "Usually safe when prescribed, but monitor blood sugar and follow medical advice."
+    },
+    ("Losartan", "Aspirin"): {
+        "risk": 50,
+        "level": "Moderate",
+        "warning": "Regular NSAID use may reduce blood pressure control or affect kidneys."
+    },
+    ("Amlodipine", "Losartan"): {
+        "risk": 35,
+        "level": "Low",
+        "warning": "May lower blood pressure more when used together. Monitor dizziness or weakness."
+    },
+    ("Cetirizine", "Alcohol"): {
+        "risk": 60,
+        "level": "Moderate",
+        "warning": "May increase drowsiness and reduce alertness."
+    },
+    ("Levocetirizine", "Alcohol"): {
+        "risk": 60,
+        "level": "Moderate",
+        "warning": "May increase drowsiness and reduce alertness."
+    },
+    ("Pantoprazole", "Clopidogrel"): {
+        "risk": 35,
+        "level": "Low",
+        "warning": "Usually preferred over some alternatives, but follow doctor advice."
+    },
+    ("Omeprazole", "Clopidogrel"): {
+        "risk": 65,
+        "level": "Moderate",
+        "warning": "May reduce clopidogrel effect in some patients. Doctor review is recommended."
+    },
+    ("Insulin", "Metformin"): {
+        "risk": 55,
+        "level": "Moderate",
+        "warning": "May increase low blood sugar risk. Glucose monitoring is important."
+    },
+    ("Glimepiride", "Metformin"): {
+        "risk": 55,
+        "level": "Moderate",
+        "warning": "May increase low blood sugar risk. Use with monitoring as prescribed."
+    },
+    ("Salbutamol", "Propranolol"): {
+        "risk": 75,
+        "level": "Moderate",
+        "warning": "Beta blockers may reduce bronchodilator effect. Doctor review is recommended."
+    },
+    ("Montelukast", "Cetirizine"): {
+        "risk": 20,
+        "level": "Low",
+        "warning": "Often prescribed together for allergy/asthma control, but follow the prescription."
     }
 }
 

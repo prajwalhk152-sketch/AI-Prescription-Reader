@@ -304,8 +304,8 @@ For production use, consider:
 1. ✓ Install MongoDB
 2. ✓ Configure `.env` file
 3. ✓ Run database initialization: `python database/init_db.py`
-4. ✓ Start Streamlit app: `streamlit run app.py`
-5. ✓ Go to Module 12 for MongoDB operations
+4. ✓ Start FastAPI/React app: `python -m uvicorn api.api_server:app --host 127.0.0.1 --port 8000`
+5. ✓ Open `http://127.0.0.1:8000` for app operations
 
 ## Additional Resources
 

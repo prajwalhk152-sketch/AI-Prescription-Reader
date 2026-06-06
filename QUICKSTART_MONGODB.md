@@ -58,13 +58,13 @@ MongoDB Connection verified
 python database/test_mongodb.py
 ```
 
-### Step 5: Run Streamlit App
+### Step 5: Run FastAPI/React App
 
 ```bash
-streamlit run app.py
+python -m uvicorn api.api_server:app --host 127.0.0.1 --port 8000
 ```
 
-Go to **Module 12** to use MongoDB features!
+Open `http://127.0.0.1:8000` to use the app.
 
 ## Files Created/Modified
 
@@ -173,7 +173,7 @@ pip install pymongo python-dotenv
 1. ✓ Install MongoDB
 2. ✓ Install packages: `pip install -r requirements.txt`
 3. ✓ Verify setup: `python database/init_db.py`
-4. ✓ Run app: `streamlit run app.py`
+4. ✓ Run app: `python -m uvicorn api.api_server:app --host 127.0.0.1 --port 8000`
 5. ✓ Use Module 12 for database operations
 
 ## Full Documentation

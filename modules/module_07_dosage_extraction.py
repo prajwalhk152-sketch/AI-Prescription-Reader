@@ -1,9 +1,19 @@
-import streamlit as st
 import os
 import re
 import json
 import pandas as pd
 from datetime import datetime
+
+class _StreamlitFallback:
+    def __getattr__(self, name):
+        raise RuntimeError(
+            f"Streamlit UI function st.{name} is unavailable. "
+            "Run the React/FastAPI app instead."
+        )
+
+
+st = _StreamlitFallback()
+
 try:
     import spacy
 except ImportError:

@@ -1,8 +1,23 @@
-import streamlit as st
 import os
 import json
 import pandas as pd
 from datetime import datetime
+
+
+class _StreamlitFallback:
+    def cache_data(self, **_kwargs):
+        def decorator(func):
+            return func
+        return decorator
+
+    def __getattr__(self, name):
+        raise RuntimeError(
+            f"Streamlit UI function st.{name} is unavailable. "
+            "Run the React/FastAPI app instead."
+        )
+
+
+st = _StreamlitFallback()
 
 INPUT_DIR = "outputs/module_06_medicines"
 OUTPUT_DIR = "outputs/module_10_recommendations"

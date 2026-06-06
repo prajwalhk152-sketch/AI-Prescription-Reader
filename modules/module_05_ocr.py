@@ -1,4 +1,3 @@
-import streamlit as st
 import os
 import json
 import shutil
@@ -6,7 +5,6 @@ import re
 import cv2
 import numpy as np
 import pytesseract
-from PIL import Image
 from datetime import datetime
 
 INPUT_DIR = "outputs/module_04_preprocessed"
@@ -271,6 +269,8 @@ def calculate_basic_confidence(text):
 
 
 def show_module_05_ocr():
+    import streamlit as st
+
     st.title("OCR Text Extraction")
 
     st.write(
@@ -432,4 +432,3 @@ def show_module_05_ocr():
         st.info(
             "This OCR text is ready for Medicine detection: Medicine Name Detection using NLP."
         )
-

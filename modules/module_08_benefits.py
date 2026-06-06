@@ -1,13 +1,33 @@
-import streamlit as st
 import os
 import json
+import csv
 import pandas as pd
 import requests
 from datetime import datetime
 from dotenv import load_dotenv
+from functools import lru_cache
+from pathlib import Path
+
+
+class _StreamlitFallback:
+    def cache_data(self, **_kwargs):
+        def decorator(func):
+            return func
+        return decorator
+
+    def __getattr__(self, name):
+        raise RuntimeError(
+            f"Streamlit UI function st.{name} is unavailable. "
+            "Run the React/FastAPI app instead."
+        )
+
+
+st = _StreamlitFallback()
 
 INPUT_DIR = "outputs/module_06_medicines"
 OUTPUT_DIR = "outputs/module_08_benefits"
+DATA_DIR = Path(__file__).parent.parent / "data"
+MEDICINE_BENEFITS_DATABASE_PATH = DATA_DIR / "medicine_benefits_database.csv"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 load_dotenv()
@@ -49,6 +69,36 @@ BENEFITS_DATABASE = {
 }
 
 
+def normalize_medicine_key(medicine_name):
+    return " ".join(str(medicine_name).strip().lower().split())
+
+
+@lru_cache(maxsize=1)
+def load_medicine_benefits_database():
+    if not MEDICINE_BENEFITS_DATABASE_PATH.exists():
+        return {}
+
+    benefits = {}
+    with MEDICINE_BENEFITS_DATABASE_PATH.open(newline="", encoding="utf-8") as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            key = normalize_medicine_key(row.get("medicine_name", ""))
+            if key:
+                benefits[key] = row
+
+    return benefits
+
+
+def get_database_benefit(medicine_name):
+    database_match = load_medicine_benefits_database().get(
+        normalize_medicine_key(medicine_name)
+    )
+    if not database_match:
+        return ""
+
+    return database_match.get("benefit_explanation", "").strip()
+
+
 @st.cache_data(show_spinner=False)
 def get_medicine_files():
     if not os.path.exists(INPUT_DIR):
@@ -65,6 +115,10 @@ def get_medicine_files():
 def generate_benefit(medicine_name, category):
     if medicine_name in BENEFITS_DATABASE:
         return BENEFITS_DATABASE[medicine_name]
+
+    database_benefit = get_database_benefit(medicine_name)
+    if database_benefit:
+        return database_benefit
 
     return (
         f"{medicine_name} is generally used for {category.lower()}. "
@@ -131,6 +185,12 @@ def generate_genai_benefit(medicine_name, category, use_api):
             return explanation, status
 
         return generate_local_genai_explanation(medicine_name, category), status
+
+    if get_database_benefit(medicine_name):
+        return (
+            generate_local_genai_explanation(medicine_name, category),
+            "Generated from 50,000 medicine benefits database",
+        )
 
     return generate_local_genai_explanation(medicine_name, category), "Generated locally"
 

@@ -1,0 +1,58 @@
+{
+    "status": "success",
+    "medicines": [
+        {
+            "medicine_name": "Amoxicillin 500 Mg",
+            "category": "RxNav Clinical Drug Component",
+            "start_char": -1,
+            "end_char": -1,
+            "source_text": "Dr. ANITA VERMA\nels MBBS, DNB (Family Medicine)\nReg. No.: 67890\nDate; 20/05/2024\nRK Name: Poo Me Gupta\nAge: 28 / F\n1. Tab. Amoxicillin 5006 ma\n[-I-1 After Food\n5 Days\n2. Tab. Thuprofen 400 mg\n{-[-0O After Food\n3 Days\n3. Tab. Pantoprazole 40 mg\n{-O-] Before Food\nAvotd Spicy food\nWarm water\nfrit\nMBBS, DNB (Family Medicine)\not\nRK Name : Pooja Gupta\nAge\n23 /F\n1. Tab. Amoxicillin 500 m\nAfter Food\n2. Tab. Thuprofen 400 ma\n1-1-0\n3. Tab. Pantoprazole 4Om\nBefore Food\nAvoid Spicy food\nkK Name: Poo Me Gupta\n1-O-] Before Food\nkK Name : Pooja Gupta\n1. Tab. Amoxicillin 506 ma\n[-I-L After Food\nrite\n2g /F\n1-O-]\nfrie\nRk Name: Poo | Gupta\n1. Tab. Amoxicillin 500 mg\nf-{-1 After Food\na. Tab. Thuprofen 400 mg\n3. Tab. Fantoprazole 40 mg\nfvite\u2014\nat\n2ge/F\n2. Tab.\nThuprofen 400 ma\n3. Tab.\nFantoprazole 4Om\nAvoid\nS picy food\nfrites\nTab\nName: Poo | Gupta\nfits\nFantoprazole 40m\nAvotd",
+            "extraction_method": "Medicine detector fallback"
+        },
+        {
+            "medicine_name": "Pantoprazole",
+            "category": "Acidity Relief",
+            "start_char": -1,
+            "end_char": -1,
+            "source_text": "Dr. ANITA VERMA\nels MBBS, DNB (Family Medicine)\nReg. No.: 67890\nDate; 20/05/2024\nRK Name: Poo Me Gupta\nAge: 28 / F\n1. Tab. Amoxicillin 5006 ma\n[-I-1 After Food\n5 Days\n2. Tab. Thuprofen 400 mg\n{-[-0O After Food\n3 Days\n3. Tab. Pantoprazole 40 mg\n{-O-] Before Food\nAvotd Spicy food\nWarm water\nfrit\nMBBS, DNB (Family Medicine)\not\nRK Name : Pooja Gupta\nAge\n23 /F\n1. Tab. Amoxicillin 500 m\nAfter Food\n2. Tab. Thuprofen 400 ma\n1-1-0\n3. Tab. Pantoprazole 4Om\nBefore Food\nAvoid Spicy food\nkK Name: Poo Me Gupta\n1-O-] Before Food\nkK Name : Pooja Gupta\n1. Tab. Amoxicillin 506 ma\n[-I-L After Food\nrite\n2g /F\n1-O-]\nfrie\nRk Name: Poo | Gupta\n1. Tab. Amoxicillin 500 mg\nf-{-1 After Food\na. Tab. Thuprofen 400 mg\n3. Tab. Fantoprazole 40 mg\nfvite\u2014\nat\n2ge/F\n2. Tab.\nThuprofen 400 ma\n3. Tab.\nFantoprazole 4Om\nAvoid\nS picy food\nfrites\nTab\nName: Poo | Gupta\nfits\nFantoprazole 40m\nAvotd",
+            "extraction_method": "Medicine detector fallback"
+        },
+        {
+            "medicine_name": "Water",
+            "category": "RxNav Ingredient",
+            "start_char": -1,
+            "end_char": -1,
+            "source_text": "Dr. ANITA VERMA\nels MBBS, DNB (Family Medicine)\nReg. No.: 67890\nDate; 20/05/2024\nRK Name: Poo Me Gupta\nAge: 28 / F\n1. Tab. Amoxicillin 5006 ma\n[-I-1 After Food\n5 Days\n2. Tab. Thuprofen 400 mg\n{-[-0O After Food\n3 Days\n3. Tab. Pantoprazole 40 mg\n{-O-] Before Food\nAvotd Spicy food\nWarm water\nfrit\nMBBS, DNB (Family Medicine)\not\nRK Name : Pooja Gupta\nAge\n23 /F\n1. Tab. Amoxicillin 500 m\nAfter Food\n2. Tab. Thuprofen 400 ma\n1-1-0\n3. Tab. Pantoprazole 4Om\nBefore Food\nAvoid Spicy food\nkK Name: Poo Me Gupta\n1-O-] Before Food\nkK Name : Pooja Gupta\n1. Tab. Amoxicillin 506 ma\n[-I-L After Food\nrite\n2g /F\n1-O-]\nfrie\nRk Name: Poo | Gupta\n1. Tab. Amoxicillin 500 mg\nf-{-1 After Food\na. Tab. Thuprofen 400 mg\n3. Tab. Fantoprazole 40 mg\nfvite\u2014\nat\n2ge/F\n2. Tab.\nThuprofen 400 ma\n3. Tab.\nFantoprazole 4Om\nAvoid\nS picy food\nfrites\nTab\nName: Poo | Gupta\nfits\nFantoprazole 40m\nAvotd",
+            "extraction_method": "Medicine detector fallback"
+        },
+        {
+            "medicine_name": "Medicone",
+            "category": "RxNav Brand Name",
+            "start_char": -1,
+            "end_char": -1,
+            "source_text": "Dr. ANITA VERMA\nels MBBS, DNB (Family Medicine)\nReg. No.: 67890\nDate; 20/05/2024\nRK Name: Poo Me Gupta\nAge: 28 / F\n1. Tab. Amoxicillin 5006 ma\n[-I-1 After Food\n5 Days\n2. Tab. Thuprofen 400 mg\n{-[-0O After Food\n3 Days\n3. Tab. Pantoprazole 40 mg\n{-O-] Before Food\nAvotd Spicy food\nWarm water\nfrit\nMBBS, DNB (Family Medicine)\not\nRK Name : Pooja Gupta\nAge\n23 /F\n1. Tab. Amoxicillin 500 m\nAfter Food\n2. Tab. Thuprofen 400 ma\n1-1-0\n3. Tab. Pantoprazole 4Om\nBefore Food\nAvoid Spicy food\nkK Name: Poo Me Gupta\n1-O-] Before Food\nkK Name : Pooja Gupta\n1. Tab. Amoxicillin 506 ma\n[-I-L After Food\nrite\n2g /F\n1-O-]\nfrie\nRk Name: Poo | Gupta\n1. Tab. Amoxicillin 500 mg\nf-{-1 After Food\na. Tab. Thuprofen 400 mg\n3. Tab. Fantoprazole 40 mg\nfvite\u2014\nat\n2ge/F\n2. Tab.\nThuprofen 400 ma\n3. Tab.\nFantoprazole 4Om\nAvoid\nS picy food\nfrites\nTab\nName: Poo | Gupta\nfits\nFantoprazole 40m\nAvotd",
+            "extraction_method": "Medicine detector fallback"
+        },
+        {
+            "medicine_name": "Truprofen",
+            "category": "RxNav Brand Name",
+            "start_char": -1,
+            "end_char": -1,
+            "source_text": "Dr. ANITA VERMA\nels MBBS, DNB (Family Medicine)\nReg. No.: 67890\nDate; 20/05/2024\nRK Name: Poo Me Gupta\nAge: 28 / F\n1. Tab. Amoxicillin 5006 ma\n[-I-1 After Food\n5 Days\n2. Tab. Thuprofen 400 mg\n{-[-0O After Food\n3 Days\n3. Tab. Pantoprazole 40 mg\n{-O-] Before Food\nAvotd Spicy food\nWarm water\nfrit\nMBBS, DNB (Family Medicine)\not\nRK Name : Pooja Gupta\nAge\n23 /F\n1. Tab. Amoxicillin 500 m\nAfter Food\n2. Tab. Thuprofen 400 ma\n1-1-0\n3. Tab. Pantoprazole 4Om\nBefore Food\nAvoid Spicy food\nkK Name: Poo Me Gupta\n1-O-] Before Food\nkK Name : Pooja Gupta\n1. Tab. Amoxicillin 506 ma\n[-I-L After Food\nrite\n2g /F\n1-O-]\nfrie\nRk Name: Poo | Gupta\n1. Tab. Amoxicillin 500 mg\nf-{-1 After Food\na. Tab. Thuprofen 400 mg\n3. Tab. Fantoprazole 40 mg\nfvite\u2014\nat\n2ge/F\n2. Tab.\nThuprofen 400 ma\n3. Tab.\nFantoprazole 4Om\nAvoid\nS picy food\nfrites\nTab\nName: Poo | Gupta\nfits\nFantoprazole 40m\nAvotd",
+            "extraction_method": "Medicine detector fallback"
+        }
+    ],
+    "dosages": [
+        "500 mg",
+        "40 mg",
+        "400 mg",
+        "2g"
+    ],
+    "timings": [
+        "After Food",
+        "Before Food"
+    ],
+    "frequencies": [
+        "1-1-0"
+    ]
+}

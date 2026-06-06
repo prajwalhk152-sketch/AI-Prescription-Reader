@@ -1,0 +1,15 @@
+{
+    "status": "success",
+    "input_path": "C:\\Users\\VICTUS\\OneDrive\\Desktop\\AI-Prescription-Reader\\outputs\\module_04_preprocessed\\preprocessed_20260606_111420.png",
+    "ocr_engine": "Tesseract OCR",
+    "handwriting_mode": true,
+    "include_medicine_rescue": false,
+    "tesseract_text": "Dr. SURESH PATIL\nMBBS, MD (Medicine)\nReg. No.: 54321\nDate : 28/05/2024\nR Name: Mohan Singh\nAge: 45 /M\n1. Tab. Metformin 500 ma\nj-[-] After Food\n| Month\n2. Tab. Amlodipine 5 mg\n1-O-{ After Food\n3. Tab. Atorvastatin 10 mg\n0-0-1 Night\n4. Tab. Aspinin 75 mg\n0-1-0 After Food\nWelk daily\nLow salt diet pit\nAge\n45 [1M\nTab. Metformin 500 mg\nI-I-]\nAfter Food\nTab. Amlodipine 5 mg\n1-0-1\n1 Month\nTab. Atorvastatin 10 m\nNight\n0-0-1\nTab. Aspinin FS mg\n0-1-0\nWolk\nLow salt diet\nfuk\nj-I-] After Food\n4. Tab. Aspinin 7S mg\n45 /M\nTab. Metformin 500 ma\n1-O-|\nTab. Atorvastatin lO m\n0-0-]\npuke\nLow salt diet pt\nky Name: Mohan Singh\n41. Tab. Metformin. 500 ma\n2. Tob. Amlodipine 5 mg\n0-0-! Night\nWelk chaiky\nLow salt diet fot.\nj-1-1\nTab. Aspinin 75 mg\nWelk\njuke\n4. Tab. Aspinin #5 mg\nLow salt diet putt\niN Name: Mohan Singh\nTab, Amlodipine 5 mag\n. Tab. Atorvastatin 10 ma",
+    "easyocr_text": "",
+    "combined_text": "Dr. SURESH PATIL\nMBBS, MD (Medicine)\nReg. No.: 54321\nDate : 28/05/2024\nR Name: Mohan Singh\nAge: 45 /M\n1. Tab. Metformin 500 ma\nj-[-] After Food\n| Month\n2. Tab. Amlodipine 5 mg\n1-O-{ After Food\n3. Tab. Atorvastatin 10 mg\n0-0-1 Night\n4. Tab. Aspinin 75 mg\n0-1-0 After Food\nWelk daily\nLow salt diet pit\nAge\n45 [1M\nTab. Metformin 500 mg\nI-I-]\nAfter Food\nTab. Amlodipine 5 mg\n1-0-1\n1 Month\nTab. Atorvastatin 10 m\nNight\n0-0-1\nTab. Aspinin FS mg\n0-1-0\nWolk\nLow salt diet\nfuk\nj-I-] After Food\n4. Tab. Aspinin 7S mg\n45 /M\nTab. Metformin 500 ma\n1-O-|\nTab. Atorvastatin lO m\n0-0-]\npuke\nLow salt diet pt\nky Name: Mohan Singh\n41. Tab. Metformin. 500 ma\n2. Tob. Amlodipine 5 mg\n0-0-! Night\nWelk chaiky\nLow salt diet fot.\nj-1-1\nTab. Aspinin 75 mg\nWelk\njuke\n4. Tab. Aspinin #5 mg\nLow salt diet putt\niN Name: Mohan Singh\nTab, Amlodipine 5 mag\n. Tab. Atorvastatin 10 ma",
+    "medicine_rescue_matches": [],
+    "basic_confidence_percent": 80,
+    "text_file_path": "C:\\Users\\VICTUS\\OneDrive\\Desktop\\AI-Prescription-Reader\\outputs\\module_05_ocr\\ocr_text_20260606_113011.txt",
+    "json_file_path": "C:\\Users\\VICTUS\\OneDrive\\Desktop\\AI-Prescription-Reader\\outputs\\module_05_ocr\\ocr_result_20260606_113011.json",
+    "created_at": "2026-06-06 11:30:11.240951"
+}

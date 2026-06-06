@@ -1,0 +1,70 @@
+{
+    "status": "success",
+    "medicines": [
+        {
+            "medicine_name": "Amlodipine 5 Mg",
+            "category": "RxNav Clinical Drug Component",
+            "start_char": -1,
+            "end_char": -1,
+            "source_text": "Dr. SURESH PATIL\nMBBS, MD (Medicine)\nReg. No.: 54321\nDate : 28/05/2024\nR Name: Mohan Singh\nAge: 45 /M\n1. Tab. Metformin 500 ma\nj-[-] After Food\n| Month\n2. Tab. Amlodipine 5 mg\n1-O-{ After Food\n3. Tab. Atorvastatin 10 mg\n0-0-1 Night\n4. Tab. Aspinin 75 mg\n0-1-0 After Food\nWelk daily\nLow salt diet pit\nAge\n45 [1M\nTab. Metformin 500 mg\nI-I-]\nAfter Food\nTab. Amlodipine 5 mg\n1-0-1\n1 Month\nTab. Atorvastatin 10 m\nNight\n0-0-1\nTab. Aspinin FS mg\n0-1-0\nWolk\nLow salt diet\nfuk\nj-I-] After Food\n4. Tab. Aspinin 7S mg\n45 /M\nTab. Metformin 500 ma\n1-O-|\nTab. Atorvastatin lO m\n0-0-]\npuke\nLow salt diet pt\nky Name: Mohan Singh\n41. Tab. Metformin. 500 ma\n2. Tob. Amlodipine 5 mg\n0-0-! Night\nWelk chaiky\nLow salt diet fot.\nj-1-1\nTab. Aspinin 75 mg\nWelk\njuke\n4. Tab. Aspinin #5 mg\nLow salt diet putt\niN Name: Mohan Singh\nTab, Amlodipine 5 mag\n. Tab. Atorvastatin 10 ma",
+            "extraction_method": "Medicine detector fallback"
+        },
+        {
+            "medicine_name": "Atorvastatin 10 Mg",
+            "category": "RxNav Clinical Drug Component",
+            "start_char": -1,
+            "end_char": -1,
+            "source_text": "Dr. SURESH PATIL\nMBBS, MD (Medicine)\nReg. No.: 54321\nDate : 28/05/2024\nR Name: Mohan Singh\nAge: 45 /M\n1. Tab. Metformin 500 ma\nj-[-] After Food\n| Month\n2. Tab. Amlodipine 5 mg\n1-O-{ After Food\n3. Tab. Atorvastatin 10 mg\n0-0-1 Night\n4. Tab. Aspinin 75 mg\n0-1-0 After Food\nWelk daily\nLow salt diet pit\nAge\n45 [1M\nTab. Metformin 500 mg\nI-I-]\nAfter Food\nTab. Amlodipine 5 mg\n1-0-1\n1 Month\nTab. Atorvastatin 10 m\nNight\n0-0-1\nTab. Aspinin FS mg\n0-1-0\nWolk\nLow salt diet\nfuk\nj-I-] After Food\n4. Tab. Aspinin 7S mg\n45 /M\nTab. Metformin 500 ma\n1-O-|\nTab. Atorvastatin lO m\n0-0-]\npuke\nLow salt diet pt\nky Name: Mohan Singh\n41. Tab. Metformin. 500 ma\n2. Tob. Amlodipine 5 mg\n0-0-! Night\nWelk chaiky\nLow salt diet fot.\nj-1-1\nTab. Aspinin 75 mg\nWelk\njuke\n4. Tab. Aspinin #5 mg\nLow salt diet putt\niN Name: Mohan Singh\nTab, Amlodipine 5 mag\n. Tab. Atorvastatin 10 ma",
+            "extraction_method": "Medicine detector fallback"
+        },
+        {
+            "medicine_name": "Mag Tab",
+            "category": "RxNav Brand Name",
+            "start_char": -1,
+            "end_char": -1,
+            "source_text": "Dr. SURESH PATIL\nMBBS, MD (Medicine)\nReg. No.: 54321\nDate : 28/05/2024\nR Name: Mohan Singh\nAge: 45 /M\n1. Tab. Metformin 500 ma\nj-[-] After Food\n| Month\n2. Tab. Amlodipine 5 mg\n1-O-{ After Food\n3. Tab. Atorvastatin 10 mg\n0-0-1 Night\n4. Tab. Aspinin 75 mg\n0-1-0 After Food\nWelk daily\nLow salt diet pit\nAge\n45 [1M\nTab. Metformin 500 mg\nI-I-]\nAfter Food\nTab. Amlodipine 5 mg\n1-0-1\n1 Month\nTab. Atorvastatin 10 m\nNight\n0-0-1\nTab. Aspinin FS mg\n0-1-0\nWolk\nLow salt diet\nfuk\nj-I-] After Food\n4. Tab. Aspinin 7S mg\n45 /M\nTab. Metformin 500 ma\n1-O-|\nTab. Atorvastatin lO m\n0-0-]\npuke\nLow salt diet pt\nky Name: Mohan Singh\n41. Tab. Metformin. 500 ma\n2. Tob. Amlodipine 5 mg\n0-0-! Night\nWelk chaiky\nLow salt diet fot.\nj-1-1\nTab. Aspinin 75 mg\nWelk\njuke\n4. Tab. Aspinin #5 mg\nLow salt diet putt\niN Name: Mohan Singh\nTab, Amlodipine 5 mag\n. Tab. Atorvastatin 10 ma",
+            "extraction_method": "Medicine detector fallback"
+        },
+        {
+            "medicine_name": "Metformin",
+            "category": "Diabetes Control",
+            "start_char": -1,
+            "end_char": -1,
+            "source_text": "Dr. SURESH PATIL\nMBBS, MD (Medicine)\nReg. No.: 54321\nDate : 28/05/2024\nR Name: Mohan Singh\nAge: 45 /M\n1. Tab. Metformin 500 ma\nj-[-] After Food\n| Month\n2. Tab. Amlodipine 5 mg\n1-O-{ After Food\n3. Tab. Atorvastatin 10 mg\n0-0-1 Night\n4. Tab. Aspinin 75 mg\n0-1-0 After Food\nWelk daily\nLow salt diet pit\nAge\n45 [1M\nTab. Metformin 500 mg\nI-I-]\nAfter Food\nTab. Amlodipine 5 mg\n1-0-1\n1 Month\nTab. Atorvastatin 10 m\nNight\n0-0-1\nTab. Aspinin FS mg\n0-1-0\nWolk\nLow salt diet\nfuk\nj-I-] After Food\n4. Tab. Aspinin 7S mg\n45 /M\nTab. Metformin 500 ma\n1-O-|\nTab. Atorvastatin lO m\n0-0-]\npuke\nLow salt diet pt\nky Name: Mohan Singh\n41. Tab. Metformin. 500 ma\n2. Tob. Amlodipine 5 mg\n0-0-! Night\nWelk chaiky\nLow salt diet fot.\nj-1-1\nTab. Aspinin 75 mg\nWelk\njuke\n4. Tab. Aspinin #5 mg\nLow salt diet putt\niN Name: Mohan Singh\nTab, Amlodipine 5 mag\n. Tab. Atorvastatin 10 ma",
+            "extraction_method": "Medicine detector fallback"
+        },
+        {
+            "medicine_name": "Medicone",
+            "category": "RxNav Brand Name",
+            "start_char": -1,
+            "end_char": -1,
+            "source_text": "Dr. SURESH PATIL\nMBBS, MD (Medicine)\nReg. No.: 54321\nDate : 28/05/2024\nR Name: Mohan Singh\nAge: 45 /M\n1. Tab. Metformin 500 ma\nj-[-] After Food\n| Month\n2. Tab. Amlodipine 5 mg\n1-O-{ After Food\n3. Tab. Atorvastatin 10 mg\n0-0-1 Night\n4. Tab. Aspinin 75 mg\n0-1-0 After Food\nWelk daily\nLow salt diet pit\nAge\n45 [1M\nTab. Metformin 500 mg\nI-I-]\nAfter Food\nTab. Amlodipine 5 mg\n1-0-1\n1 Month\nTab. Atorvastatin 10 m\nNight\n0-0-1\nTab. Aspinin FS mg\n0-1-0\nWolk\nLow salt diet\nfuk\nj-I-] After Food\n4. Tab. Aspinin 7S mg\n45 /M\nTab. Metformin 500 ma\n1-O-|\nTab. Atorvastatin lO m\n0-0-]\npuke\nLow salt diet pt\nky Name: Mohan Singh\n41. Tab. Metformin. 500 ma\n2. Tob. Amlodipine 5 mg\n0-0-! Night\nWelk chaiky\nLow salt diet fot.\nj-1-1\nTab. Aspinin 75 mg\nWelk\njuke\n4. Tab. Aspinin #5 mg\nLow salt diet putt\niN Name: Mohan Singh\nTab, Amlodipine 5 mag\n. Tab. Atorvastatin 10 ma",
+            "extraction_method": "Medicine detector fallback"
+        },
+        {
+            "medicine_name": "Aspirin",
+            "category": "Blood Thinner",
+            "start_char": -1,
+            "end_char": -1,
+            "source_text": "Dr. SURESH PATIL\nMBBS, MD (Medicine)\nReg. No.: 54321\nDate : 28/05/2024\nR Name: Mohan Singh\nAge: 45 /M\n1. Tab. Metformin 500 ma\nj-[-] After Food\n| Month\n2. Tab. Amlodipine 5 mg\n1-O-{ After Food\n3. Tab. Atorvastatin 10 mg\n0-0-1 Night\n4. Tab. Aspinin 75 mg\n0-1-0 After Food\nWelk daily\nLow salt diet pit\nAge\n45 [1M\nTab. Metformin 500 mg\nI-I-]\nAfter Food\nTab. Amlodipine 5 mg\n1-0-1\n1 Month\nTab. Atorvastatin 10 m\nNight\n0-0-1\nTab. Aspinin FS mg\n0-1-0\nWolk\nLow salt diet\nfuk\nj-I-] After Food\n4. Tab. Aspinin 7S mg\n45 /M\nTab. Metformin 500 ma\n1-O-|\nTab. Atorvastatin lO m\n0-0-]\npuke\nLow salt diet pt\nky Name: Mohan Singh\n41. Tab. Metformin. 500 ma\n2. Tob. Amlodipine 5 mg\n0-0-! Night\nWelk chaiky\nLow salt diet fot.\nj-1-1\nTab. Aspinin 75 mg\nWelk\njuke\n4. Tab. Aspinin #5 mg\nLow salt diet putt\niN Name: Mohan Singh\nTab, Amlodipine 5 mag\n. Tab. Atorvastatin 10 ma",
+            "extraction_method": "Medicine detector fallback"
+        }
+    ],
+    "dosages": [
+        "500 mg",
+        "1\nTab",
+        "10 mg",
+        "75 mg",
+        "5 mg"
+    ],
+    "timings": [
+        "Night",
+        "After Food",
+        "Daily"
+    ],
+    "frequencies": [
+        "0-0-1",
+        "0-1-0",
+        "1-0-1"
+    ]
+}

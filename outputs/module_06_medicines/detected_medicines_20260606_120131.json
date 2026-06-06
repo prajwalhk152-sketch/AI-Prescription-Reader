@@ -1,0 +1,43 @@
+{
+    "status": "success",
+    "medicine_count": 5,
+    "medicines": [
+        {
+            "medicine_name": "Amlodipine 5 Mg",
+            "category": "RxNav Clinical Drug Component",
+            "confidence": "High",
+            "detection_method": "Exact Phrase Match",
+            "score": 1.0
+        },
+        {
+            "medicine_name": "Atorvastatin 10 Mg",
+            "category": "RxNav Clinical Drug Component",
+            "confidence": "High",
+            "detection_method": "Exact Phrase Match",
+            "score": 1.0
+        },
+        {
+            "medicine_name": "Metformin",
+            "category": "Diabetes Control",
+            "confidence": "High",
+            "detection_method": "Exact Phrase Match",
+            "score": 1.0
+        },
+        {
+            "medicine_name": "Medicone",
+            "category": "RxNav Brand Name",
+            "confidence": "High",
+            "detection_method": "Fuzzy Match (Typo Detection)",
+            "score": 0.88
+        },
+        {
+            "medicine_name": "Aspirin",
+            "category": "Blood Thinner",
+            "confidence": "High",
+            "detection_method": "Fuzzy Match (Typo Detection)",
+            "score": 0.86
+        }
+    ],
+    "json_file_path": "outputs/module_06_medicines/detected_medicines_20260606_120131.json",
+    "csv_file_path": "outputs/module_06_medicines/detected_medicines_20260606_120131.csv"
+}

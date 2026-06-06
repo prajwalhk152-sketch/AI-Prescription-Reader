@@ -1,0 +1,39 @@
+{
+    "status": "success",
+    "input_file": "",
+    "medicines_checked": [
+        "Azithromycin",
+        "Paracetamol",
+        "Cetirizine"
+    ],
+    "total_pairs_checked": 3,
+    "high_risk_count": 0,
+    "moderate_risk_count": 0,
+    "low_risk_count": 0,
+    "interaction_results": [
+        {
+            "medicine_1": "Azithromycin",
+            "medicine_2": "Paracetamol",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Azithromycin",
+            "medicine_2": "Cetirizine",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Paracetamol",
+            "medicine_2": "Cetirizine",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        }
+    ],
+    "csv_file_path": "outputs/module_09_interactions/drug_interactions_20260606_202211.csv",
+    "json_file_path": "outputs/module_09_interactions/drug_interactions_20260606_202211.json",
+    "created_at": "2026-06-06 20:22:11.343050"
+}

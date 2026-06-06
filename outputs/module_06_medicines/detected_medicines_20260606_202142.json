@@ -1,0 +1,29 @@
+{
+    "status": "success",
+    "medicine_count": 3,
+    "medicines": [
+        {
+            "medicine_name": "Azithromycin",
+            "category": "Antibiotic",
+            "confidence": "High",
+            "detection_method": "Exact Phrase Match",
+            "score": 1.0
+        },
+        {
+            "medicine_name": "Paracetamol",
+            "category": "Fever / Pain Relief",
+            "confidence": "High",
+            "detection_method": "Fuzzy Match (Typo Detection)",
+            "score": 0.87
+        },
+        {
+            "medicine_name": "Cetirizine",
+            "category": "Allergy Relief",
+            "confidence": "High",
+            "detection_method": "Fuzzy Match (Typo Detection)",
+            "score": 0.9
+        }
+    ],
+    "json_file_path": "outputs/module_06_medicines/detected_medicines_20260606_202142.json",
+    "csv_file_path": "outputs/module_06_medicines/detected_medicines_20260606_202142.csv"
+}

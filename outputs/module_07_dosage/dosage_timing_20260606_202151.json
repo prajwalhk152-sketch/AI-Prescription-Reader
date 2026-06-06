@@ -1,0 +1,37 @@
+{
+    "status": "success",
+    "medicines": [
+        {
+            "medicine_name": "Azithromycin",
+            "category": "Antibiotic",
+            "start_char": -1,
+            "end_char": -1,
+            "source_text": "\u201cBI Dr. RAMESH KUMAR\n| e MBBS, MD (General Medicine)\n| Reg. No.: 12345\n| Date: 12 [05/2024\n| K Name: Ravi Sharma\nAge: 32 /\u2122M\n1. Tab. Poracetamoel 650 me\n| l-{-| After Food\n5 Days\n2. Tab. Azithromycin 500 mag\n: 3 Days\n3. Tab. Cetinizine 10 mg\n1-O-{ Night\n&. Cough Syrup (100 mb )\n1 Tsp - 3 times a day 5 Days\n| Plenty, of water\n| Take nest (os\n| Dr. Ramesh Kumar",
+            "extraction_method": "Medicine detector fallback"
+        },
+        {
+            "medicine_name": "Paracetamol",
+            "category": "Fever / Pain Relief",
+            "start_char": -1,
+            "end_char": -1,
+            "source_text": "\u201cBI Dr. RAMESH KUMAR\n| e MBBS, MD (General Medicine)\n| Reg. No.: 12345\n| Date: 12 [05/2024\n| K Name: Ravi Sharma\nAge: 32 /\u2122M\n1. Tab. Poracetamoel 650 me\n| l-{-| After Food\n5 Days\n2. Tab. Azithromycin 500 mag\n: 3 Days\n3. Tab. Cetinizine 10 mg\n1-O-{ Night\n&. Cough Syrup (100 mb )\n1 Tsp - 3 times a day 5 Days\n| Plenty, of water\n| Take nest (os\n| Dr. Ramesh Kumar",
+            "extraction_method": "Medicine detector fallback"
+        },
+        {
+            "medicine_name": "Cetirizine",
+            "category": "Allergy Relief",
+            "start_char": -1,
+            "end_char": -1,
+            "source_text": "\u201cBI Dr. RAMESH KUMAR\n| e MBBS, MD (General Medicine)\n| Reg. No.: 12345\n| Date: 12 [05/2024\n| K Name: Ravi Sharma\nAge: 32 /\u2122M\n1. Tab. Poracetamoel 650 me\n| l-{-| After Food\n5 Days\n2. Tab. Azithromycin 500 mag\n: 3 Days\n3. Tab. Cetinizine 10 mg\n1-O-{ Night\n&. Cough Syrup (100 mb )\n1 Tsp - 3 times a day 5 Days\n| Plenty, of water\n| Take nest (os\n| Dr. Ramesh Kumar",
+            "extraction_method": "Medicine detector fallback"
+        }
+    ],
+    "dosages": [
+        "10 mg"
+    ],
+    "timings": [
+        "After Food",
+        "Night"
+    ],
+    "frequencies": []
+}

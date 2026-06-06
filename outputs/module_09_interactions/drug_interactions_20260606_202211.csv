@@ -1,0 +1,4 @@
+medicine_1,medicine_2,risk_percent,risk_level,warning
+Azithromycin,Paracetamol,0,No Known Risk,No major known interaction found in the local database.
+Azithromycin,Cetirizine,0,No Known Risk,No major known interaction found in the local database.
+Paracetamol,Cetirizine,0,No Known Risk,No major known interaction found in the local database.

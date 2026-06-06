@@ -1,0 +1,65 @@
+{
+    "status": "success",
+    "medicines": [
+        {
+            "medicine_name": "Amoxicillin 500 Mg",
+            "category": "RxNav Clinical Drug Component",
+            "start_char": -1,
+            "end_char": -1,
+            "source_text": "Dr. ANITA VERMA\nels MBBS, DNB (Family Medicine)\nReg. No.: 67890\nDate: 20/05/2024\nRe Name: Poo The Gupta\nAge: 28 / F\n1. Tab. Amoxicillin 500 mg\ni-!-1| After Food\n5 Days\na. Tab. Ibuprofen 400 mg\n1-1-0 After Food\n3 Days\n3. Tab. Fantoprazole 40 mg\n[-o-]{| Before Food\nAvotd Spicy food\nWarm water\nAnite",
+            "extraction_method": "Medicine detector fallback"
+        },
+        {
+            "medicine_name": "Ibuprofen",
+            "category": "Arthritis Relief",
+            "start_char": -1,
+            "end_char": -1,
+            "source_text": "Dr. ANITA VERMA\nels MBBS, DNB (Family Medicine)\nReg. No.: 67890\nDate: 20/05/2024\nRe Name: Poo The Gupta\nAge: 28 / F\n1. Tab. Amoxicillin 500 mg\ni-!-1| After Food\n5 Days\na. Tab. Ibuprofen 400 mg\n1-1-0 After Food\n3 Days\n3. Tab. Fantoprazole 40 mg\n[-o-]{| Before Food\nAvotd Spicy food\nWarm water\nAnite",
+            "extraction_method": "Medicine detector fallback"
+        },
+        {
+            "medicine_name": "Water",
+            "category": "RxNav Ingredient",
+            "start_char": -1,
+            "end_char": -1,
+            "source_text": "Dr. ANITA VERMA\nels MBBS, DNB (Family Medicine)\nReg. No.: 67890\nDate: 20/05/2024\nRe Name: Poo The Gupta\nAge: 28 / F\n1. Tab. Amoxicillin 500 mg\ni-!-1| After Food\n5 Days\na. Tab. Ibuprofen 400 mg\n1-1-0 After Food\n3 Days\n3. Tab. Fantoprazole 40 mg\n[-o-]{| Before Food\nAvotd Spicy food\nWarm water\nAnite",
+            "extraction_method": "Medicine detector fallback"
+        },
+        {
+            "medicine_name": "Medicone",
+            "category": "RxNav Brand Name",
+            "start_char": -1,
+            "end_char": -1,
+            "source_text": "Dr. ANITA VERMA\nels MBBS, DNB (Family Medicine)\nReg. No.: 67890\nDate: 20/05/2024\nRe Name: Poo The Gupta\nAge: 28 / F\n1. Tab. Amoxicillin 500 mg\ni-!-1| After Food\n5 Days\na. Tab. Ibuprofen 400 mg\n1-1-0 After Food\n3 Days\n3. Tab. Fantoprazole 40 mg\n[-o-]{| Before Food\nAvotd Spicy food\nWarm water\nAnite",
+            "extraction_method": "Medicine detector fallback"
+        },
+        {
+            "medicine_name": "Aconite",
+            "category": "RxNav Ingredient",
+            "start_char": -1,
+            "end_char": -1,
+            "source_text": "Dr. ANITA VERMA\nels MBBS, DNB (Family Medicine)\nReg. No.: 67890\nDate: 20/05/2024\nRe Name: Poo The Gupta\nAge: 28 / F\n1. Tab. Amoxicillin 500 mg\ni-!-1| After Food\n5 Days\na. Tab. Ibuprofen 400 mg\n1-1-0 After Food\n3 Days\n3. Tab. Fantoprazole 40 mg\n[-o-]{| Before Food\nAvotd Spicy food\nWarm water\nAnite",
+            "extraction_method": "Medicine detector fallback"
+        },
+        {
+            "medicine_name": "Anisate",
+            "category": "RxNav Ingredient",
+            "start_char": -1,
+            "end_char": -1,
+            "source_text": "Dr. ANITA VERMA\nels MBBS, DNB (Family Medicine)\nReg. No.: 67890\nDate: 20/05/2024\nRe Name: Poo The Gupta\nAge: 28 / F\n1. Tab. Amoxicillin 500 mg\ni-!-1| After Food\n5 Days\na. Tab. Ibuprofen 400 mg\n1-1-0 After Food\n3 Days\n3. Tab. Fantoprazole 40 mg\n[-o-]{| Before Food\nAvotd Spicy food\nWarm water\nAnite",
+            "extraction_method": "Medicine detector fallback"
+        }
+    ],
+    "dosages": [
+        "500 mg",
+        "40 mg",
+        "400 mg"
+    ],
+    "timings": [
+        "Before Food",
+        "After Food"
+    ],
+    "frequencies": [
+        "1-1-0"
+    ]
+}

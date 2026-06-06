@@ -1,8 +1,10 @@
 import os
 import json
+import csv
 import pandas as pd
 from itertools import combinations
 from datetime import datetime
+from pathlib import Path
 
 
 class _StreamlitFallback:
@@ -22,6 +24,8 @@ st = _StreamlitFallback()
 
 INPUT_DIR = "outputs/module_06_medicines"
 OUTPUT_DIR = "outputs/module_09_interactions"
+DATA_DIR = Path(__file__).parent.parent / "data"
+MEDICINE_INTERACTIONS_DATABASE_PATH = DATA_DIR / "medicine_interactions_database.csv"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -184,6 +188,51 @@ INTERACTION_DATABASE = {
 }
 
 
+def normalize_database_name(name):
+    return str(name).strip().title()
+
+
+def load_external_interaction_database():
+    if not MEDICINE_INTERACTIONS_DATABASE_PATH.exists():
+        return 0
+
+    loaded_count = 0
+    with MEDICINE_INTERACTIONS_DATABASE_PATH.open(newline="", encoding="utf-8") as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            medicine_1 = normalize_database_name(row.get("medicine_1", ""))
+            medicine_2 = normalize_database_name(row.get("medicine_2", ""))
+            if not medicine_1 or not medicine_2 or medicine_1 == medicine_2:
+                continue
+
+            try:
+                risk = int(float(row.get("risk_percent", 0)))
+            except (TypeError, ValueError):
+                risk = 0
+
+            level = str(row.get("risk_level", "No Known Risk")).strip() or "No Known Risk"
+            warning = str(row.get("warning", "")).strip()
+            if not warning:
+                warning = "Potential interaction listed in the local CSV database. Please confirm with a doctor."
+
+            pair = (medicine_1, medicine_2)
+            reverse_pair = (medicine_2, medicine_1)
+            if pair in INTERACTION_DATABASE or reverse_pair in INTERACTION_DATABASE:
+                continue
+
+            INTERACTION_DATABASE[pair] = {
+                "risk": max(0, min(100, risk)),
+                "level": level,
+                "warning": warning,
+            }
+            loaded_count += 1
+
+    return loaded_count
+
+
+EXTERNAL_INTERACTION_COUNT = load_external_interaction_database()
+
+
 @st.cache_data(show_spinner=False)
 def get_medicine_files():
     if not os.path.exists(INPUT_DIR):
@@ -196,7 +245,7 @@ def get_medicine_files():
 
 
 def normalize_name(name):
-    return str(name).strip().title()
+    return normalize_database_name(name)
 
 
 def check_interaction(med1, med2):

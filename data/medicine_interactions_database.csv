@@ -1,0 +1,31 @@
+medicine_1,medicine_2,risk_percent,risk_level,warning,patient_note
+Warfarin,Aspirin,95,High,May increase bleeding risk. Doctor review is required.,Interaction screening is educational and must be verified by a clinician.
+Warfarin,Ibuprofen,90,High,May increase serious bleeding risk.,Interaction screening is educational and must be verified by a clinician.
+Warfarin,Diclofenac,90,High,"May increase bleeding risk, including stomach bleeding.",Interaction screening is educational and must be verified by a clinician.
+Aspirin,Ibuprofen,75,Moderate,May increase stomach bleeding risk and reduce aspirin heart-protection effect.,Interaction screening is educational and must be verified by a clinician.
+Aspirin,Clopidogrel,80,High,May increase bleeding risk. Use only under doctor supervision.,Interaction screening is educational and must be verified by a clinician.
+Clopidogrel,Omeprazole,65,Moderate,May reduce clopidogrel effect in some patients.,Interaction screening is educational and must be verified by a clinician.
+Clopidogrel,Pantoprazole,35,Low,"Usually preferred over some alternatives, but follow doctor advice.",Interaction screening is educational and must be verified by a clinician.
+Metformin,Alcohol,85,High,May increase risk of lactic acidosis and low blood sugar.,Interaction screening is educational and must be verified by a clinician.
+Insulin Glargine,Glimepiride,70,Moderate,May increase low blood sugar risk. Monitoring is important.,Interaction screening is educational and must be verified by a clinician.
+Metformin,Ibuprofen,45,Low,"Kidney function should be considered, especially in dehydration or kidney disease.",Interaction screening is educational and must be verified by a clinician.
+Losartan,Ibuprofen,65,Moderate,May reduce blood pressure effect and affect kidney function.,Interaction screening is educational and must be verified by a clinician.
+Telmisartan,Ibuprofen,65,Moderate,May reduce blood pressure effect and affect kidney function.,Interaction screening is educational and must be verified by a clinician.
+Ramipril,Spironolactone,80,High,May increase potassium levels. Doctor monitoring is required.,Interaction screening is educational and must be verified by a clinician.
+Losartan,Spironolactone,78,High,May increase potassium levels. Doctor monitoring is required.,Interaction screening is educational and must be verified by a clinician.
+Amlodipine,Simvastatin,70,Moderate,May increase statin side effects. Doctor monitoring may be needed.,Interaction screening is educational and must be verified by a clinician.
+Clarithromycin,Atorvastatin,88,High,May increase statin toxicity risk. Doctor review is recommended.,Interaction screening is educational and must be verified by a clinician.
+Azithromycin,Warfarin,80,High,May increase blood thinning effect and bleeding risk.,Interaction screening is educational and must be verified by a clinician.
+Propranolol,Salbutamol,75,Moderate,Beta blockers may reduce bronchodilator effect.,Interaction screening is educational and must be verified by a clinician.
+Cetirizine,Alcohol,60,Moderate,May increase drowsiness and reduce alertness.,Interaction screening is educational and must be verified by a clinician.
+Levocetirizine,Alcohol,60,Moderate,May increase drowsiness and reduce alertness.,Interaction screening is educational and must be verified by a clinician.
+Fluconazole,Warfarin,88,High,May increase warfarin effect and bleeding risk.,Interaction screening is educational and must be verified by a clinician.
+Fluconazole,Atorvastatin,70,Moderate,May increase statin side-effect risk.,Interaction screening is educational and must be verified by a clinician.
+Doxycycline,Calcium Carbonate,60,Moderate,Calcium may reduce doxycycline absorption if taken together.,Interaction screening is educational and must be verified by a clinician.
+Levothyroxine,Calcium Carbonate,65,Moderate,Calcium may reduce levothyroxine absorption if taken together.,Interaction screening is educational and must be verified by a clinician.
+Levothyroxine,Ferrous Sulfate,65,Moderate,Iron may reduce levothyroxine absorption if taken together.,Interaction screening is educational and must be verified by a clinician.
+Ciprofloxacin,Calcium Carbonate,65,Moderate,Calcium may reduce antibiotic absorption if taken together.,Interaction screening is educational and must be verified by a clinician.
+Ciprofloxacin,Iron Supplement,65,Moderate,Iron may reduce antibiotic absorption if taken together.,Interaction screening is educational and must be verified by a clinician.
+Ondansetron,Azithromycin,60,Moderate,May increase heart rhythm risk in susceptible patients.,Interaction screening is educational and must be verified by a clinician.
+Escitalopram,Tramadol,80,High,May increase serotonin syndrome or seizure risk.,Interaction screening is educational and must be verified by a clinician.
+Sertraline,Aspirin,60,Moderate,May increase bleeding tendency in some patients.,Interaction screening is educational and must be verified by a clinician.

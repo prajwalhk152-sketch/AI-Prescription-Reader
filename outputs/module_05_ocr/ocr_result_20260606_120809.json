@@ -1,0 +1,15 @@
+{
+    "status": "success",
+    "input_path": "C:\\Users\\VICTUS\\OneDrive\\Desktop\\AI-Prescription-Reader\\outputs\\module_04_preprocessed\\preprocessed_20260606_120801.png",
+    "ocr_engine": "Tesseract OCR",
+    "handwriting_mode": false,
+    "include_medicine_rescue": false,
+    "tesseract_text": "Dr. ANITA VERMA\nels MBBS, DNB (Family Medicine)\nReg. No.: 67890\nDate: 20/05/2024\nRe Name: Poo The Gupta\nAge: 28 / F\n1. Tab. Amoxicillin 500 mg\ni-!-1| After Food\n5 Days\na. Tab. Ibuprofen 400 mg\n1-1-0 After Food\n3 Days\n3. Tab. Fantoprazole 40 mg\n[-o-]{| Before Food\n5 Days\nAvotd Spicy food\nWarm water\nAnite\nDr. Anita Verma\nReg. No.: 67890",
+    "easyocr_text": "",
+    "combined_text": "Dr. ANITA VERMA\nels MBBS, DNB (Family Medicine)\nReg. No.: 67890\nDate: 20/05/2024\nRe Name: Poo The Gupta\nAge: 28 / F\n1. Tab. Amoxicillin 500 mg\ni-!-1| After Food\n5 Days\na. Tab. Ibuprofen 400 mg\n1-1-0 After Food\n3 Days\n3. Tab. Fantoprazole 40 mg\n[-o-]{| Before Food\nAvotd Spicy food\nWarm water\nAnite",
+    "medicine_rescue_matches": [],
+    "basic_confidence_percent": 80,
+    "text_file_path": "C:\\Users\\VICTUS\\OneDrive\\Desktop\\AI-Prescription-Reader\\outputs\\module_05_ocr\\ocr_text_20260606_120809.txt",
+    "json_file_path": "C:\\Users\\VICTUS\\OneDrive\\Desktop\\AI-Prescription-Reader\\outputs\\module_05_ocr\\ocr_result_20260606_120809.json",
+    "created_at": "2026-06-06 12:08:09.693395"
+}

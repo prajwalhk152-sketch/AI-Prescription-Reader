@@ -1,0 +1,28 @@
+{
+    "status": "success",
+    "input_file": "",
+    "recommendations": [
+        {
+            "medicine_name": "Azithromycin",
+            "category": "Antibiotic",
+            "recommendations": "Azee, Azithral",
+            "note": "Use alternatives only after doctor consultation."
+        },
+        {
+            "medicine_name": "Paracetamol",
+            "category": "Fever / Pain Relief",
+            "recommendations": "Crocin, Calpol, Dolo 650",
+            "note": "Use alternatives only after doctor consultation."
+        },
+        {
+            "medicine_name": "Cetirizine",
+            "category": "Allergy Relief",
+            "recommendations": "Levocetirizine, Allegra, Fexofenadine",
+            "note": "Use alternatives only after doctor consultation."
+        }
+    ],
+    "total_medicines": 3,
+    "csv_file_path": "outputs/module_10_recommendations/medicine_recommendations_20260606_202235.csv",
+    "json_file_path": "outputs/module_10_recommendations/medicine_recommendations_20260606_202235.json",
+    "created_at": "2026-06-06 20:22:35.470645"
+}

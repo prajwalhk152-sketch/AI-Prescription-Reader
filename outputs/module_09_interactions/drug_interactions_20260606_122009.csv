@@ -1,0 +1,16 @@
+medicine_1,medicine_2,risk_percent,risk_level,warning
+Amoxicillin,Ibuprofen,0,No Known Risk,No major known interaction found in the local database.
+Amoxicillin,Water,0,No Known Risk,No major known interaction found in the local database.
+Amoxicillin,Medicone,0,No Known Risk,No major known interaction found in the local database.
+Amoxicillin,Aconite,0,No Known Risk,No major known interaction found in the local database.
+Amoxicillin,Anisate,0,No Known Risk,No major known interaction found in the local database.
+Ibuprofen,Water,0,No Known Risk,No major known interaction found in the local database.
+Ibuprofen,Medicone,0,No Known Risk,No major known interaction found in the local database.
+Ibuprofen,Aconite,0,No Known Risk,No major known interaction found in the local database.
+Ibuprofen,Anisate,0,No Known Risk,No major known interaction found in the local database.
+Water,Medicone,0,No Known Risk,No major known interaction found in the local database.
+Water,Aconite,0,No Known Risk,No major known interaction found in the local database.
+Water,Anisate,0,No Known Risk,No major known interaction found in the local database.
+Medicone,Aconite,0,No Known Risk,No major known interaction found in the local database.
+Medicone,Anisate,0,No Known Risk,No major known interaction found in the local database.
+Aconite,Anisate,0,No Known Risk,No major known interaction found in the local database.

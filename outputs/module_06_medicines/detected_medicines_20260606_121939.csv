@@ -1,0 +1,7 @@
+medicine_name,category,confidence,detection_method,score
+Amoxicillin 500 Mg,RxNav Clinical Drug Component,High,Exact Phrase Match,1.0
+Ibuprofen,Arthritis Relief,High,Exact Phrase Match,1.0
+Water,RxNav Ingredient,High,Exact Phrase Match,1.0
+Medicone,RxNav Brand Name,High,Fuzzy Match (Typo Detection),0.88
+Aconite,RxNav Ingredient,Medium,Fuzzy Match (Typo Detection),0.83
+Anisate,RxNav Ingredient,Medium,Fuzzy Match (Typo Detection),0.83

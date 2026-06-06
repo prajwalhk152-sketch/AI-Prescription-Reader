@@ -1,0 +1,15 @@
+{
+    "status": "success",
+    "input_path": "C:\\Users\\VICTUS\\OneDrive\\Desktop\\AI-Prescription-Reader\\outputs\\module_04_preprocessed\\preprocessed_20260606_202019.png",
+    "ocr_engine": "Tesseract OCR",
+    "handwriting_mode": false,
+    "include_medicine_rescue": false,
+    "tesseract_text": "|\n\n\u201cBI Dr. RAMESH KUMAR\n| e MBBS, MD (General Medicine)\n| Reg. No.: 12345\n| Date: 12 [05/2024\n| K Name: Ravi Sharma\n\nAge: 32 /\u2122M\n\n1. Tab. Poracetamoel 650 me\n| l-{-| After Food\n5 Days\n\n2. Tab. Azithromycin 500 mag\n: 3 Days\n3. Tab. Cetinizine 10 mg\n\n1-O-{ Night\n\n: 5 Days\n&. Cough Syrup (100 mb )\n1 Tsp - 3 times a day 5 Days\n| Plenty, of water\n| Take nest (os\n| Dr. Ramesh Kumar\n: Reg. No.: 12345\n|",
+    "easyocr_text": "",
+    "combined_text": "\u201cBI Dr. RAMESH KUMAR\n| e MBBS, MD (General Medicine)\n| Reg. No.: 12345\n| Date: 12 [05/2024\n| K Name: Ravi Sharma\nAge: 32 /\u2122M\n1. Tab. Poracetamoel 650 me\n| l-{-| After Food\n5 Days\n2. Tab. Azithromycin 500 mag\n: 3 Days\n3. Tab. Cetinizine 10 mg\n1-O-{ Night\n&. Cough Syrup (100 mb )\n1 Tsp - 3 times a day 5 Days\n| Plenty, of water\n| Take nest (os\n| Dr. Ramesh Kumar",
+    "medicine_rescue_matches": [],
+    "basic_confidence_percent": 80,
+    "text_file_path": "C:\\Users\\VICTUS\\OneDrive\\Desktop\\AI-Prescription-Reader\\outputs\\module_05_ocr\\ocr_text_20260606_202115.txt",
+    "json_file_path": "C:\\Users\\VICTUS\\OneDrive\\Desktop\\AI-Prescription-Reader\\outputs\\module_05_ocr\\ocr_result_20260606_202115.json",
+    "created_at": "2026-06-06 20:21:15.992363"
+}

@@ -1,0 +1,126 @@
+{
+    "status": "success",
+    "input_file": "",
+    "medicines_checked": [
+        "Amoxicillin",
+        "Ibuprofen",
+        "Water",
+        "Medicone",
+        "Aconite",
+        "Anisate"
+    ],
+    "total_pairs_checked": 15,
+    "high_risk_count": 0,
+    "moderate_risk_count": 0,
+    "low_risk_count": 0,
+    "interaction_results": [
+        {
+            "medicine_1": "Amoxicillin",
+            "medicine_2": "Ibuprofen",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Amoxicillin",
+            "medicine_2": "Water",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Amoxicillin",
+            "medicine_2": "Medicone",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Amoxicillin",
+            "medicine_2": "Aconite",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Amoxicillin",
+            "medicine_2": "Anisate",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Ibuprofen",
+            "medicine_2": "Water",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Ibuprofen",
+            "medicine_2": "Medicone",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Ibuprofen",
+            "medicine_2": "Aconite",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Ibuprofen",
+            "medicine_2": "Anisate",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Water",
+            "medicine_2": "Medicone",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Water",
+            "medicine_2": "Aconite",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Water",
+            "medicine_2": "Anisate",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Medicone",
+            "medicine_2": "Aconite",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Medicone",
+            "medicine_2": "Anisate",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        },
+        {
+            "medicine_1": "Aconite",
+            "medicine_2": "Anisate",
+            "risk_percent": 0,
+            "risk_level": "No Known Risk",
+            "warning": "No major known interaction found in the local database."
+        }
+    ],
+    "csv_file_path": "outputs/module_09_interactions/drug_interactions_20260606_122009.csv",
+    "json_file_path": "outputs/module_09_interactions/drug_interactions_20260606_122009.json",
+    "created_at": "2026-06-06 12:20:09.505401"
+}

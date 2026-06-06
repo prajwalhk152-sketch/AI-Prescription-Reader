@@ -1,0 +1,11 @@
+medicine_1,medicine_2,risk_percent,risk_level,warning
+Amoxicillin,Pantoprazole,0,No Known Risk,No major known interaction found in the local database.
+Amoxicillin,Water,0,No Known Risk,No major known interaction found in the local database.
+Amoxicillin,Medicone,0,No Known Risk,No major known interaction found in the local database.
+Amoxicillin,Truprofen,0,No Known Risk,No major known interaction found in the local database.
+Pantoprazole,Water,0,No Known Risk,No major known interaction found in the local database.
+Pantoprazole,Medicone,0,No Known Risk,No major known interaction found in the local database.
+Pantoprazole,Truprofen,0,No Known Risk,No major known interaction found in the local database.
+Water,Medicone,0,No Known Risk,No major known interaction found in the local database.
+Water,Truprofen,0,No Known Risk,No major known interaction found in the local database.
+Medicone,Truprofen,0,No Known Risk,No major known interaction found in the local database.

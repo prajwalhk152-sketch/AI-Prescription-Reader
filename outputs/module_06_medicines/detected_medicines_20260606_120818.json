@@ -1,0 +1,50 @@
+{
+    "status": "success",
+    "medicine_count": 6,
+    "medicines": [
+        {
+            "medicine_name": "Amoxicillin 500 Mg",
+            "category": "RxNav Clinical Drug Component",
+            "confidence": "High",
+            "detection_method": "Exact Phrase Match",
+            "score": 1.0
+        },
+        {
+            "medicine_name": "Ibuprofen",
+            "category": "Arthritis Relief",
+            "confidence": "High",
+            "detection_method": "Exact Phrase Match",
+            "score": 1.0
+        },
+        {
+            "medicine_name": "Water",
+            "category": "RxNav Ingredient",
+            "confidence": "High",
+            "detection_method": "Exact Phrase Match",
+            "score": 1.0
+        },
+        {
+            "medicine_name": "Medicone",
+            "category": "RxNav Brand Name",
+            "confidence": "High",
+            "detection_method": "Fuzzy Match (Typo Detection)",
+            "score": 0.88
+        },
+        {
+            "medicine_name": "Aconite",
+            "category": "RxNav Ingredient",
+            "confidence": "Medium",
+            "detection_method": "Fuzzy Match (Typo Detection)",
+            "score": 0.83
+        },
+        {
+            "medicine_name": "Anisate",
+            "category": "RxNav Ingredient",
+            "confidence": "Medium",
+            "detection_method": "Fuzzy Match (Typo Detection)",
+            "score": 0.83
+        }
+    ],
+    "json_file_path": "outputs/module_06_medicines/detected_medicines_20260606_120818.json",
+    "csv_file_path": "outputs/module_06_medicines/detected_medicines_20260606_120818.csv"
+}

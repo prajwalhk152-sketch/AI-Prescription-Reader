@@ -1,0 +1,57 @@
+{
+    "status": "success",
+    "medicines": [
+        {
+            "medicine_name": "Amlodipine 5 Mg",
+            "category": "RxNav Clinical Drug Component",
+            "start_char": -1,
+            "end_char": -1,
+            "source_text": "Dr. SURESH PATIL\nMBBS, MD (Medicine)\nReg. No.: 54321\nDate ; 28/05/2024\nR Name : Mohan Singh\nAge: 45 /M\n1. Tab. Metformin 500 ma\n1 Month\n2. Tab. Amlodipine 5 mg\n1-O-] After Food\n| Month\n3. Tab. Atorvastatin 10 mg\n0-0-| Night\n4. Tab. Aspinin #5 mg\n0-1-0 After Food\nWalk daily\nLow salt diet put",
+            "extraction_method": "Medicine detector fallback"
+        },
+        {
+            "medicine_name": "Atorvastatin 10 Mg",
+            "category": "RxNav Clinical Drug Component",
+            "start_char": -1,
+            "end_char": -1,
+            "source_text": "Dr. SURESH PATIL\nMBBS, MD (Medicine)\nReg. No.: 54321\nDate ; 28/05/2024\nR Name : Mohan Singh\nAge: 45 /M\n1. Tab. Metformin 500 ma\n1 Month\n2. Tab. Amlodipine 5 mg\n1-O-] After Food\n| Month\n3. Tab. Atorvastatin 10 mg\n0-0-| Night\n4. Tab. Aspinin #5 mg\n0-1-0 After Food\nWalk daily\nLow salt diet put",
+            "extraction_method": "Medicine detector fallback"
+        },
+        {
+            "medicine_name": "Metformin",
+            "category": "Diabetes Control",
+            "start_char": -1,
+            "end_char": -1,
+            "source_text": "Dr. SURESH PATIL\nMBBS, MD (Medicine)\nReg. No.: 54321\nDate ; 28/05/2024\nR Name : Mohan Singh\nAge: 45 /M\n1. Tab. Metformin 500 ma\n1 Month\n2. Tab. Amlodipine 5 mg\n1-O-] After Food\n| Month\n3. Tab. Atorvastatin 10 mg\n0-0-| Night\n4. Tab. Aspinin #5 mg\n0-1-0 After Food\nWalk daily\nLow salt diet put",
+            "extraction_method": "Medicine detector fallback"
+        },
+        {
+            "medicine_name": "Medicone",
+            "category": "RxNav Brand Name",
+            "start_char": -1,
+            "end_char": -1,
+            "source_text": "Dr. SURESH PATIL\nMBBS, MD (Medicine)\nReg. No.: 54321\nDate ; 28/05/2024\nR Name : Mohan Singh\nAge: 45 /M\n1. Tab. Metformin 500 ma\n1 Month\n2. Tab. Amlodipine 5 mg\n1-O-] After Food\n| Month\n3. Tab. Atorvastatin 10 mg\n0-0-| Night\n4. Tab. Aspinin #5 mg\n0-1-0 After Food\nWalk daily\nLow salt diet put",
+            "extraction_method": "Medicine detector fallback"
+        },
+        {
+            "medicine_name": "Aspirin",
+            "category": "Blood Thinner",
+            "start_char": -1,
+            "end_char": -1,
+            "source_text": "Dr. SURESH PATIL\nMBBS, MD (Medicine)\nReg. No.: 54321\nDate ; 28/05/2024\nR Name : Mohan Singh\nAge: 45 /M\n1. Tab. Metformin 500 ma\n1 Month\n2. Tab. Amlodipine 5 mg\n1-O-] After Food\n| Month\n3. Tab. Atorvastatin 10 mg\n0-0-| Night\n4. Tab. Aspinin #5 mg\n0-1-0 After Food\nWalk daily\nLow salt diet put",
+            "extraction_method": "Medicine detector fallback"
+        }
+    ],
+    "dosages": [
+        "5 mg",
+        "10 mg"
+    ],
+    "timings": [
+        "Night",
+        "After Food",
+        "Daily"
+    ],
+    "frequencies": [
+        "0-1-0"
+    ]
+}

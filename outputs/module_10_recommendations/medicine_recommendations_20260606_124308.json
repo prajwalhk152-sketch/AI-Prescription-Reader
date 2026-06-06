@@ -1,0 +1,46 @@
+{
+    "status": "success",
+    "input_file": "outputs/module_06_medicines/detected_medicines_20260606_121939.csv",
+    "recommendations": [
+        {
+            "medicine_name": "Amoxicillin 500 Mg",
+            "category": "RxNav Clinical Drug Component",
+            "recommendations": "Augmentin, Moxikind",
+            "note": "Use alternatives only after doctor consultation."
+        },
+        {
+            "medicine_name": "Ibuprofen",
+            "category": "Arthritis Relief",
+            "recommendations": "Combiflam, Brufen",
+            "note": "Use alternatives only after doctor consultation."
+        },
+        {
+            "medicine_name": "Water",
+            "category": "RxNav Ingredient",
+            "recommendations": "No alternative available in local database",
+            "note": "Use alternatives only after doctor consultation."
+        },
+        {
+            "medicine_name": "Medicone",
+            "category": "RxNav Brand Name",
+            "recommendations": "No alternative available in local database",
+            "note": "Use alternatives only after doctor consultation."
+        },
+        {
+            "medicine_name": "Aconite",
+            "category": "RxNav Ingredient",
+            "recommendations": "No alternative available in local database",
+            "note": "Use alternatives only after doctor consultation."
+        },
+        {
+            "medicine_name": "Anisate",
+            "category": "RxNav Ingredient",
+            "recommendations": "No alternative available in local database",
+            "note": "Use alternatives only after doctor consultation."
+        }
+    ],
+    "total_medicines": 6,
+    "csv_file_path": "outputs/module_10_recommendations/medicine_recommendations_20260606_124308.csv",
+    "json_file_path": "outputs/module_10_recommendations/medicine_recommendations_20260606_124308.json",
+    "created_at": "2026-06-06 12:43:08.709237"
+}

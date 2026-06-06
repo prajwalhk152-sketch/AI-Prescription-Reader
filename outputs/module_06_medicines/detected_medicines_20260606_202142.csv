@@ -1,0 +1,4 @@
+medicine_name,category,confidence,detection_method,score
+Azithromycin,Antibiotic,High,Exact Phrase Match,1.0
+Paracetamol,Fever / Pain Relief,High,Fuzzy Match (Typo Detection),0.87
+Cetirizine,Allergy Relief,High,Fuzzy Match (Typo Detection),0.9
